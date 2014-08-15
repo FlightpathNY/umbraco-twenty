@@ -1,0 +1,2896 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>highlight.png</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>highlight.png</orgName>
+    </file>
+    <file>
+      <guid>icons-contact.png</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>icons-contact.png</orgName>
+    </file>
+    <file>
+      <guid>icons-meta.png</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>icons-meta.png</orgName>
+    </file>
+    <file>
+      <guid>icons-special.png</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>icons-special.png</orgName>
+    </file>
+    <file>
+      <guid>overlay.png</guid>
+      <orgPath>/css/images</orgPath>
+      <orgName>overlay.png</orgName>
+    </file>
+    <file>
+      <guid>mobileUI-site-nav-opener-bg.svg</guid>
+      <orgPath>/images</orgPath>
+      <orgName>mobileUI-site-nav-opener-bg.svg</orgName>
+    </file>
+    <file>
+      <guid>mobileUI-site-nav.svg</guid>
+      <orgPath>/images</orgPath>
+      <orgName>mobileUI-site-nav.svg</orgName>
+    </file>
+    <file>
+      <guid>config.js</guid>
+      <orgPath>/js</orgPath>
+      <orgName>config.js</orgName>
+    </file>
+    <file>
+      <guid>html5shiv.js</guid>
+      <orgPath>/js</orgPath>
+      <orgName>html5shiv.js</orgName>
+    </file>
+    <file>
+      <guid>jquery.min.js</guid>
+      <orgPath>/js</orgPath>
+      <orgName>jquery.min.js</orgName>
+    </file>
+    <file>
+      <guid>skel-panels.min.js</guid>
+      <orgPath>/js</orgPath>
+      <orgName>skel-panels.min.js</orgName>
+    </file>
+    <file>
+      <guid>skel.min.js</guid>
+      <orgPath>/js</orgPath>
+      <orgName>skel.min.js</orgName>
+    </file>
+    <file>
+      <guid>umbAbout.cshtml</guid>
+      <orgPath>/Views/Partials</orgPath>
+      <orgName>umbAbout.cshtml</orgName>
+    </file>
+    <file>
+      <guid>umbFeatures.cshtml</guid>
+      <orgPath>/Views/Partials</orgPath>
+      <orgName>umbFeatures.cshtml</orgName>
+    </file>
+    <file>
+      <guid>umbHomepageBanner.cshtml</guid>
+      <orgPath>/Views/Partials</orgPath>
+      <orgName>umbHomepageBanner.cshtml</orgName>
+    </file>
+    <file>
+      <guid>umbLatestNewsWidget.cshtml</guid>
+      <orgPath>/Views/Partials</orgPath>
+      <orgName>umbLatestNewsWidget.cshtml</orgName>
+    </file>
+    <file>
+      <guid>umbNewsOverviewWidget.cshtml</guid>
+      <orgPath>/Views/Partials</orgPath>
+      <orgName>umbNewsOverviewWidget.cshtml</orgName>
+    </file>
+    <file>
+      <guid>umbSocial.cshtml</guid>
+      <orgPath>/Views/Partials</orgPath>
+      <orgName>umbSocial.cshtml</orgName>
+    </file>
+    <file>
+      <guid>umbTopNavigation.cshtml</guid>
+      <orgPath>/Views/Partials</orgPath>
+      <orgName>umbTopNavigation.cshtml</orgName>
+    </file>
+    <file>
+      <guid>pic03.jpg</guid>
+      <orgPath>/media/SampleImages/1001</orgPath>
+      <orgName>pic03.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic03_thumb.jpg</guid>
+      <orgPath>/media/SampleImages/1001</orgPath>
+      <orgName>pic03_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>banner.jpg</guid>
+      <orgPath>/media/SampleImages/1008</orgPath>
+      <orgName>banner.jpg</orgName>
+    </file>
+    <file>
+      <guid>banner_thumb.jpg</guid>
+      <orgPath>/media/SampleImages/1008</orgPath>
+      <orgName>banner_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic02.jpg</guid>
+      <orgPath>/media/SampleImages/1060</orgPath>
+      <orgName>pic02.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic02_thumb.jpg</guid>
+      <orgPath>/media/SampleImages/1060</orgPath>
+      <orgName>pic02_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic04.jpg</guid>
+      <orgPath>/media/SampleImages/1061</orgPath>
+      <orgName>pic04.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic04_thumb.jpg</guid>
+      <orgPath>/media/SampleImages/1061</orgPath>
+      <orgName>pic04_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic01.jpg</guid>
+      <orgPath>/media/SampleImages/1063</orgPath>
+      <orgName>pic01.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic01_thumb.jpg</guid>
+      <orgPath>/media/SampleImages/1063</orgPath>
+      <orgName>pic01_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic05.jpg</guid>
+      <orgPath>/media/SampleImages/1077</orgPath>
+      <orgName>pic05.jpg</orgName>
+    </file>
+    <file>
+      <guid>pic05_thumb.jpg</guid>
+      <orgPath>/media/SampleImages/1077</orgPath>
+      <orgName>pic05_thumb.jpg</orgName>
+    </file>
+    <file>
+      <guid>4829dc55-ead6-4e5b-9bd1-10b5ce0d0e1a_pic03.jpg</guid>
+      <orgPath>/media/SampleImages/1078</orgPath>
+      <orgName>pic03.jpg</orgName>
+    </file>
+    <file>
+      <guid>Txt.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>Txt.dll</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Txt Starter Kit</name>
+      <version>1.0.0</version>
+      <license url="http://www.opensource.org/licenses/mit-license.php">MIT license</license>
+      <url>http://umbraco.com</url>
+      <requirements>
+        <major>3</major>
+        <minor>0</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Umbraco</name>
+      <website>http://umbraco.com</website>
+    </author>
+    <readme><![CDATA[This is TXT, a free site template designed by n33 (twitter.com/n33) for HTML5 UP (html5up.com) and implemented as a simple Umbraco Starter Kit to provide you with a site that holds basic content pages and a full news section.]]></readme>
+  </info>
+  <Documents>
+    <DocumentSet importMode="root">
+      <umbHomePage id="1051" parentID="-1" level="1" creatorID="0" sortOrder="0" createDate="2013-09-15T11:48:43" updateDate="2013-09-19T12:49:45" nodeName="Home" urlName="home" path="-1,1051" isDoc="" nodeType="1047" creatorName="admin" writerName="admin" writerID="0" template="1079" nodeTypeAlias="umbHomePage">
+        <umbracoNaviHide>0</umbracoNaviHide>
+        <title>Txt: A responsive starter kit for Umbraco</title>
+        <facebookLink>http://facebook.com/Umbraco</facebookLink>
+        <twitterLink>http://twitter.com/UmbracoProject</twitterLink>
+        <rssLink>http://feeds.feedburner.com/umbracoblog</rssLink>
+        <dribbbleLink />
+        <linkedInLink />
+        <googleLink>https://google.com/+Umbraco</googleLink>
+        <hideBanner>0</hideBanner>
+        <bannerHeader>This is some text that needs to pop</bannerHeader>
+        <bannerSubheader>It will lead to a call-to-action, just click the button...</bannerSubheader>
+        <bannerLinkText>You know you want to click me</bannerLinkText>
+        <bannerLink>1054</bannerLink>
+        <bannerBackgroundImage>/media/SampleImages/1008/banner.jpg</bannerBackgroundImage>
+        <aboutTitle>What's this about?</aboutTitle>
+        <aboutText><![CDATA[<p>This is <a href="http://html5up.net/txt/">TXT</a>, a free site template designed by <a href="http://n33.co">n33</a> for <a href="http://html5up.net/">HTML5 UP</a>. It's built on the <a href="http://skeljs.org">skelJS</a> framework, uses well-thought out HTML5 and CSS3, and is fully responsive making it a great starting point for your own projects. And, like everything else we make, it's also free to use for pretty much any personal or commercial work under the <a href="http://html5up.net/license/">Creative Commons Attribution</a> license, so go ahead and use it – just don't forget to credit us!</p>]]></aboutText>
+        <copyright>Umbraco</copyright>
+        <byline>A responsive starter kit for Umbraco</byline>
+        <siteName>Umbraco Txt</siteName>
+        <umbTextPage id="1054" parentID="1051" level="2" creatorID="0" sortOrder="0" createDate="2013-09-15T11:50:35" updateDate="2013-09-22T10:59:22" nodeName="Getting Started" urlName="getting-started" path="-1,1051,1054" isDoc="" nodeType="1053" creatorName="admin" writerName="admin" writerID="0" template="1052" nodeTypeAlias="umbTextPage">
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <title />
+          <bodyText><![CDATA[<p>You've installed Umbraco and the "Txt" Starter Kit.</p>
+<p>Edit the text on the homepage and create a site structure by adding new texpages to your site. This is all done in the <strong>Content</strong> section.</p>
+<p>If you find the editing options provided by the Txt site too limited for you needs, simply add more properties to the page by going to the <strong>Settings</strong> section, expanding the <strong>Document Types</strong> item and adding new properties on the <strong>Generic Properties</strong> tab. You can find more information about <a href="http://umbraco.org/help-and-support/video-tutorials/introduction-to-umbraco/sitebuilder-introduction/document-types" title="About Umbraco Document Types">document types and properties</a> at the <a href="http://umbraco.com" title="The Umbraco Website">Umbraco website</a>.</p>
+<p>You'll probably want to personalize your site by changing the current design. This is also done in the <strong>Settings</strong> section, by editing the CSS styles and HTML templates. Umbraco uses master templates, so the main, common markup is placed in the <strong>Starterkit Master</strong> template, while the Homeage and Textpage have separate templates for their unique layouts. You can find more information about <a href="http://umbraco.org/help-and-support/video-tutorials/introduction-to-umbraco/sitebuilder-introduction/templates" title="Umbraco Templates and Stylesheets">templates and css</a> in umbraco at the umbraco website.</p>
+<p>Once you're happy with your site's design, you might want to add more functionality, such as maps, image galleries or forms. This is done by <a href="http://umbraco.org/help-and-support/video-tutorials/getting-started" title="Umbraco Modules">installing Umbraco modules</a>.</p>]]></bodyText>
+          <image>/media/SampleImages/1063/pic01.jpg</image>
+          <featuredPage>1</featuredPage>
+        </umbTextPage>
+        <umbTextPage id="1058" parentID="1051" level="2" creatorID="0" sortOrder="1" createDate="2013-09-15T15:06:04" updateDate="2013-09-22T10:59:22" nodeName="Go Further" urlName="go-further" path="-1,1051,1058" isDoc="" nodeType="1053" creatorName="admin" writerName="admin" writerID="0" template="1052" nodeTypeAlias="umbTextPage">
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <title />
+          <bodyText><![CDATA[<p>The Txt Starter Kit only scratches the surface of what's possible with Umbraco. Below the Txt Starter Kit and its modules lies a great architecture that lets you implement whatever you need.</p>
+<p>With Umbraco you've finally got a solid, open and reliable platform for websites as basic as the Txt site, and Umbraco can be rapidly expanded to support multi-language websites, collaboration platforms and intra/extranets, to name just a few.</p>
+<p>Advanced functionality is created with Umbraco macros, built with Umbraco's award-winning .NET integration, including full support for any .NET User or Custom control and ASP.NET MVC. Create and integrate your own .NET macros in mere minutes with point and click simplicity. Simply copy your controls to the Umbraco website, go to the <strong>Developer</strong> section and create a new macro, selecting your control from the list.</p>
+<p>You can also use <a href="http://umbraco.org/help-and-support/video-tutorials/getting-started/working-with-webmatrix" title="Working with Razor">Microsoft's Razor</a> syntax to quickly add dynamic functionality to your site.</p>
+<p>We've also gathered the best community macros into a repository that's also accessed from the <strong>Developer</strong> section, in the <strong>Packages</strong> area. You can find more information <a href="http://umbraco.org/help-and-support/video-tutorials/introduction-to-umbraco/sitebuilder-introduction/what-are-macros" title="About creating Umbraco macros">about creating macros</a>, on the Umbraco website.</p>
+<p>The sky is the limit with Umbraco, and you have the benefit a friendly community, training, and guaranteed support. Find out how to <a href="http://umbraco.org/help-and-support" title="Get Umbraco Support">get help</a>.</p>]]></bodyText>
+          <image>/media/SampleImages/1060/pic02.jpg</image>
+          <featuredPage>1</featuredPage>
+        </umbTextPage>
+        <umbTextPage id="1065" parentID="1051" level="2" creatorID="0" sortOrder="2" createDate="2013-09-15T16:14:56" updateDate="2013-09-22T10:59:22" nodeName="Installing Modules" urlName="installing-modules" path="-1,1051,1065" isDoc="" nodeType="1053" creatorName="admin" writerName="admin" writerID="0" template="1052" nodeTypeAlias="umbTextPage">
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <title />
+          <bodyText><![CDATA[<p>Umbraco modules encapsulate specific bits of advanced functionality that are easily added to your website.</p>
+<p>Once installed, Umbraco modules are open source and easy to customize if you want to modify the behavior for your specific needs.</p>
+<p>Because Umbraco modules are provided under the MIT license you are free to use and modify them any way you want, with no strings attached.</p>
+<p>To add Umbraco modules to your website, go to the <strong>Settings</strong> section, expand the <strong>Templates</strong> item, select the <strong>Starterkit Master</strong> template, then click the <strong>Customize Skin</strong> button on the toolbar.</p>
+<p>Umbraco modules are available for various kinds of navigation, a sitemap, social media feeds, and a contact form. The list of available Umbraco modules is growing rapidly and is automatically updated from a central source, always fresh and current.</p>
+<p><a href="http://umbraco.org/get-started" title="Get Started with Umbraco">Get more information</a> about the umbraco way.</p>]]></bodyText>
+          <image>/media/SampleImages/1061/pic04.jpg</image>
+          <featuredPage>1</featuredPage>
+        </umbTextPage>
+        <umbTextPage id="1066" parentID="1051" level="2" creatorID="0" sortOrder="3" createDate="2013-09-15T16:15:10" updateDate="2013-09-22T11:00:09" nodeName="About" urlName="about" path="-1,1051,1066" isDoc="" nodeType="1053" creatorName="admin" writerName="admin" writerID="0" template="1052" nodeTypeAlias="umbTextPage">
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <title />
+          <bodyText><![CDATA[<p>The Txt Starter Kit gives you a small website that introduces you to a set of well-defined conventions for building an Umbraco website.</p>
+<p>Now that you know what the Txt Starter Kit is, it is time to get started using Umbraco.</p>]]></bodyText>
+          <image>/media/SampleImages/1001/pic03.jpg</image>
+          <featuredPage>1</featuredPage>
+        </umbTextPage>
+        <umbNewsOverview id="1071" parentID="1051" level="2" creatorID="0" sortOrder="4" createDate="2013-09-15T16:36:13" updateDate="2013-09-22T10:59:22" nodeName="News" urlName="news" path="-1,1051,1071" isDoc="" nodeType="1068" creatorName="admin" writerName="admin" writerID="0" template="1067" nodeTypeAlias="umbNewsOverview">
+          <umbracoNaviHide>0</umbracoNaviHide>
+          <title>Adventure log</title>
+          <umbNewsItem id="1072" parentID="1071" level="3" creatorID="0" sortOrder="0" createDate="2013-09-15T16:37:10" updateDate="2013-09-19T12:38:29" nodeName="The 10 remarkable features of object" urlName="the-10-remarkable-features-of-object" path="-1,1051,1071,1072" isDoc="" nodeType="1070" creatorName="admin" writerName="admin" writerID="0" template="1069" nodeTypeAlias="umbNewsItem">
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <title />
+            <publishDate />
+            <subheader />
+            <bodyText><![CDATA[<p>Ita prorsus, inquam; Hanc ergo intuens debet institutum illud quasi signum absolvere. Ergo adhuc, quantum equidem intellego, causa non videtur fuisse mutandi nominis. Quia dolori non voluptas contraria est, sed doloris privatio. Nos autem non solum beatae vitae istam esse oblectationem videmus, sed etiam levamentum miseriarum. Quodsi ipsam honestatem undique pertectam atque absolutam. Nos cum te, M. Quod vestri non item.</p>
+<p>Cum id quoque, ut cupiebat, audivisset, evelli iussit eam, qua erat transfixus, hastam. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Quid iudicant sensus? Quo tandem modo?</p>]]></bodyText>
+            <image />
+          </umbNewsItem>
+          <umbNewsItem id="1073" parentID="1071" level="3" creatorID="0" sortOrder="1" createDate="2013-09-15T16:57:48" updateDate="2013-09-19T12:38:29" nodeName="This is a wonderful news item" urlName="this-is-a-wonderful-news-item" path="-1,1051,1071,1073" isDoc="" nodeType="1070" creatorName="admin" writerName="admin" writerID="0" template="1069" nodeTypeAlias="umbNewsItem">
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <title />
+            <publishDate />
+            <subheader />
+            <bodyText><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commoda autem et incommoda in eo genere sunt, quae praeposita et reiecta diximus; Bestiarum vero nullum iudicium puto. Est enim effectrix multarum et magnarum voluptatum. Duo Reges: constructio interrete. Claudii libidini, qui tum erat summo ne imperio, dederetur. Quarum ambarum rerum cum medicinam pollicetur, luxuriae licentiam pollicetur. Sed virtutem ipsam inchoavit, nihil amplius.</p>
+<p>Ita redarguitur ipse a sese, convincunturque scripta eius probitate ipsius ac moribus. Istam voluptatem, inquit, Epicurus ignorat? Sed venio ad inconstantiae crimen, ne saepius dicas me aberrare; Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque communiter. Primum in nostrane potestate est, quid meminerimus? Consequens enim est et post oritur, ut dixi. Hoc mihi cum tuo fratre convenit. Immo videri fortasse. Itaque in rebus minime obscuris non multus est apud eos disserendi labor. Aliud igitur esse censet gaudere, aliud non dolere.</p>]]></bodyText>
+            <image />
+          </umbNewsItem>
+          <umbNewsItem id="1074" parentID="1071" level="3" creatorID="0" sortOrder="2" createDate="2013-09-15T16:57:59" updateDate="2013-09-19T12:38:29" nodeName="You really need to read this!" urlName="you-really-need-to-read-this!" path="-1,1051,1071,1074" isDoc="" nodeType="1070" creatorName="admin" writerName="admin" writerID="0" template="1069" nodeTypeAlias="umbNewsItem">
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <title />
+            <publishDate />
+            <subheader />
+            <bodyText><![CDATA[<p><span>Ut aliquid scire se gaudeant? Hanc ergo intuens debet institutum illud quasi signum absolvere. Vestri haec verecundius, illi fortasse constantius. Itaque sensibus rationem adiunxit et ratione effecta sensus non reliquit. Sed ea mala virtuti magnitudine obruebantur. Quasi ego id curem, quid ille aiat aut neget. Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Apparet statim, quae sint officia, quae actiones.</span></p>
+<p><span><span>Virtutibus igitur rectissime mihi videris et ad consuetudinem nostrae orationis vitia posuisse contraria. Nonne videmus quanta perturbatio rerum omnium consequatur, quanta confusio? Sed eum qui audiebant, quoad poterant, defendebant sententiam suam. Ut necesse sit omnium rerum, quae natura vigeant, similem esse finem, non eundem.</span></span></p>]]></bodyText>
+            <image />
+          </umbNewsItem>
+          <umbNewsItem id="1075" parentID="1071" level="3" creatorID="0" sortOrder="3" createDate="2013-09-15T16:58:19" updateDate="2013-09-20T10:07:50" nodeName="Txt Starter Kit For Umbraco Released" urlName="txt-starter-kit-for-umbraco-released" path="-1,1051,1071,1075" isDoc="" nodeType="1070" creatorName="admin" writerName="admin" writerID="0" template="1069" nodeTypeAlias="umbNewsItem">
+            <umbracoNaviHide>0</umbracoNaviHide>
+            <title />
+            <publishDate>2021-09-20T00:00:00</publishDate>
+            <subheader>In all it's MVC Views goodness</subheader>
+            <bodyText><![CDATA[<p><span>Sed ad haec, nisi molestum est, habeo quae velim. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. Nec vero alia sunt quaerenda contra Carneadeam illam sententiam. Deinde disputat, quod cuiusque generis animantium statui deceat extremum. Facit igitur Lucius noster prudenter, qui audire de summo bono potissimum velit; Quis non odit sordidos, vanos, leves, futtiles?</span></p>
+<p><span><span>Negat enim summo bono afferre incrementum diem. Haec mihi videtur delicatior, ut ita dicam, molliorque ratio, quam virtutis vis gravitasque postulat. Haec quo modo conveniant, non sane intellego. Quis enim confidit semper sibi illud stabile et firmum permansurum, quod fragile et caducum sit? Multoque hoc melius nos veriusque quam Stoici. Igitur neque stultorum quisquam beatus neque sapientium non beatus. De hominibus dici non necesse est. Non enim iam stirpis bonum quaeret, sed animalis. Nobis Heracleotes ille Dionysius flagitiose descivisse videtur a Stoicis propter oculorum dolorem. At, illa, ut vobis placet, partem quandam tuetur, reliquam deserit.</span></span></p>]]></bodyText>
+            <image>/media/SampleImages/1077/pic05.jpg</image>
+          </umbNewsItem>
+        </umbNewsOverview>
+      </umbHomePage>
+    </DocumentSet>
+  </Documents>
+  <DocumentTypes>
+    <DocumentType>
+      <Info>
+        <Name>Master</Name>
+        <Alias>umbMaster</Alias>
+        <Icon>folder.gif</Icon>
+        <Thumbnail>folder.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <AllowedTemplates />
+        <DefaultTemplate>
+        </DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Hide in navigation?</Name>
+          <Alias>umbracoNaviHide</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[If set to "Yes", this page will be hidden from the navigation menu at the top.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Page title</Name>
+          <Alias>title</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[The page title overrules the name this page was given. So if the page name is "About us" the title could be "About Our Company Name".]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>14</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Home</Name>
+        <Alias>umbHomePage</Alias>
+        <Icon>.sprTreeSettingDomain</Icon>
+        <Thumbnail>docWithImage.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>umbMaster</Master>
+        <AllowedTemplates>
+          <Template>umbHomePage</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>umbHomePage</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>umbTextPage</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Site Name</Name>
+          <Alias>siteName</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Facebook link</Name>
+          <Alias>facebookLink</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Social</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Twitter link</Name>
+          <Alias>twitterLink</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Social</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Rss link</Name>
+          <Alias>rssLink</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Social</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Dribbble link</Name>
+          <Alias>dribbbleLink</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Social</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>LinkedIn link</Name>
+          <Alias>linkedInLink</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Social</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Google+ link</Name>
+          <Alias>googleLink</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Social</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Hide banner?</Name>
+          <Alias>hideBanner</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Banner</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Banner Header</Name>
+          <Alias>bannerHeader</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Banner</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Banner Subheader</Name>
+          <Alias>bannerSubheader</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Banner</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Banner link text</Name>
+          <Alias>bannerLinkText</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Banner</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Banner link</Name>
+          <Alias>bannerLink</Alias>
+          <Type>158aa029-24ed-4948-939e-c3da209e5fba</Type>
+          <Definition>a6857c73-d6e9-480c-b6e6-f15f6ad11125</Definition>
+          <Tab>Banner</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Banner background image</Name>
+          <Alias>bannerBackgroundImage</Alias>
+          <Type>5032a6e6-69e3-491d-bb28-cd31cd11086c</Type>
+          <Definition>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Definition>
+          <Tab>Banner</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>About Title</Name>
+          <Alias>aboutTitle</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>About</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>AboutText</Name>
+          <Alias>aboutText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>About</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Byline</Name>
+          <Alias>byline</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Copyright</Name>
+          <Alias>copyright</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>10</Id>
+          <Caption>Social</Caption>
+        </Tab>
+        <Tab>
+          <Id>11</Id>
+          <Caption>Banner</Caption>
+        </Tab>
+        <Tab>
+          <Id>12</Id>
+          <Caption>About</Caption>
+        </Tab>
+        <Tab>
+          <Id>15</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>News Item</Name>
+        <Alias>umbNewsItem</Alias>
+        <Icon>.sprTreeDocPic</Icon>
+        <Thumbnail>docWithImage.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>umbMaster</Master>
+        <AllowedTemplates>
+          <Template>umbNewsItem</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>umbNewsItem</DefaultTemplate>
+      </Info>
+      <Structure />
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Publish date</Name>
+          <Alias>publishDate</Alias>
+          <Type>b6fb1622-afa5-4bbf-a3cc-d9672a442222</Type>
+          <Definition>e4d66c0f-b935-4200-81f0-025f7256b89a</Definition>
+          <Tab>
+          </Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[You can overrule the date shown on the site by changing it here. If you don't set a date explicitly here then the news item's create date will be shown.]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Image</Name>
+          <Alias>image</Alias>
+          <Type>5032a6e6-69e3-491d-bb28-cd31cd11086c</Type>
+          <Definition>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Subheader</Name>
+          <Alias>subheader</Alias>
+          <Type>ec15c1e5-9d90-422a-aa52-4f7622c63bea</Type>
+          <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>bodyText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>17</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>News Overview</Name>
+        <Alias>umbNewsOverview</Alias>
+        <Icon>package.png</Icon>
+        <Thumbnail>folder_media.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>umbMaster</Master>
+        <AllowedTemplates>
+          <Template>umbNewsOverview</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>umbNewsOverview</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>umbNewsItem</DocumentType>
+      </Structure>
+      <GenericProperties />
+      <Tabs />
+    </DocumentType>
+    <DocumentType>
+      <Info>
+        <Name>Text Page</Name>
+        <Alias>umbTextPage</Alias>
+        <Icon>.sprTreeDoc</Icon>
+        <Thumbnail>doc.png</Thumbnail>
+        <Description>
+        </Description>
+        <AllowAtRoot>False</AllowAtRoot>
+        <Master>umbMaster</Master>
+        <AllowedTemplates>
+          <Template>umbTextPage</Template>
+        </AllowedTemplates>
+        <DefaultTemplate>umbTextPage</DefaultTemplate>
+      </Info>
+      <Structure>
+        <DocumentType>umbTextPage</DocumentType>
+      </Structure>
+      <GenericProperties>
+        <GenericProperty>
+          <Name>Featured Page?</Name>
+          <Alias>featuredPage</Alias>
+          <Type>38b352c1-e9f8-4fd8-9324-9a2eab06d97a</Type>
+          <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[Is this a page that should be featured on the home page?]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Image</Name>
+          <Alias>image</Alias>
+          <Type>5032a6e6-69e3-491d-bb28-cd31cd11086c</Type>
+          <Definition>84c6b441-31df-4ffe-b67e-67d5bc3ae65a</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+        <GenericProperty>
+          <Name>Content</Name>
+          <Alias>bodyText</Alias>
+          <Type>5e9b75ae-face-41c8-b47e-5f4b0fd82f83</Type>
+          <Definition>ca90c950-0aff-4e72-b976-a30b1ac57dad</Definition>
+          <Tab>Content</Tab>
+          <Mandatory>False</Mandatory>
+          <Validation>
+          </Validation>
+          <Description><![CDATA[]]></Description>
+        </GenericProperty>
+      </GenericProperties>
+      <Tabs>
+        <Tab>
+          <Id>16</Id>
+          <Caption>Content</Caption>
+        </Tab>
+      </Tabs>
+    </DocumentType>
+  </DocumentTypes>
+  <Templates>
+    <Template>
+      <Name>HomePage</Name>
+      <Alias>umbHomePage</Alias>
+      <Master>umbLayout</Master>
+      <Design><![CDATA[@inherits UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";
+}
+@{ Html.RenderPartial("umbHomepageBanner"); }
+<!-- Main -->
+<div id="main-wrapper">
+    <div id="main" class="container">
+        <div class="row">
+            <div class="12u">
+                @{ Html.RenderPartial("umbFeatures"); }
+            </div>
+        </div>
+        <div class="row">
+            <div class="12u">
+                @{   Html.RenderPartial("umbNewsOverviewWidget"); }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Main -->
+]]></Design>
+    </Template>
+    <Template>
+      <Name>Layout</Name>
+      <Alias>umbLayout</Alias>
+      <Design><![CDATA[@inherits UmbracoTemplatePage
+@{
+    Layout = null;
+}<!DOCTYPE html>
+<!--
+    TXT 2.0 by HTML5 UP
+    html5up.net | twitter.com/n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>@Umbraco.Field("title", altFieldAlias: "pageName") | @Umbraco.Field("siteName", recursive: true)</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Open+Sans+Condensed:700" rel="stylesheet" />
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/config.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/skel-panels.min.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="/css/skel-noscript.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/style-desktop.css" />
+    </noscript>
+    <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><script src="/js/html5shiv.js"></script><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 7]><link rel="stylesheet" href="/css/ie7.css" /><![endif]-->
+</head>
+<body class="homepage">
+    <!-- Header -->
+    <header id="header">
+        <div class="logo">
+            <div>
+                <h1><a href="/" id="logo">@Umbraco.Field("siteName", recursive: true)</a></h1>
+                <span class="byline">@Umbraco.Field("byline", recursive: true)</span>
+            </div>
+        </div>
+    </header>
+    <!-- /Header -->
+    @{ Html.RenderPartial("umbTopNavigation"); }
+
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer id="footer" class="container">
+        <div class="row">
+            <div class="12u">
+                @{ Html.RenderPartial("umbAbout"); }
+            </div>
+        </div>
+        <div class="row">
+            <div class="12u">
+                @{ Html.RenderPartial("umbSocial"); }
+            </div>
+        </div>
+        <div class="row">
+            <!-- Copyright -->
+            <div id="copyright">
+                &copy; @DateTime.Now.Year @Umbraco.Field("copyright", recursive: true) | Images: <a href="http://fotogrph.com">fotogrph</a> + <a href="http://iconify.it">Iconify.it</a> | Design: <a href="http://html5up.net/">HTML5 UP</a>
+            </div>
+            <!-- /Copyright -->
+        </div>
+    </footer>
+    <!-- /Footer -->
+</body>
+</html>]]></Design>
+    </Template>
+    <Template>
+      <Name>News Item</Name>
+      <Alias>umbNewsItem</Alias>
+      <Master>umbLayout</Master>
+      <Design><![CDATA[@inherits UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";
+    
+    // If the editor has not explicitly provided the "Page title" property page 
+    // then just show the name of the page otherwise show the provided title
+    var pageTitle = string.IsNullOrWhiteSpace(CurrentPage.Title)
+        ? CurrentPage.Name
+        : CurrentPage.Title;
+}
+<div id="main-wrapper">
+    <div id="main" class="container">
+        <div class="row">
+            <div class="9u skel-cell-mainContent">
+                <div class="content content-left">
+                    <!-- Content -->
+                    <article class="is-page-content">
+                        <header>
+                            <h2>@pageTitle</h2>
+                        </header>
+                        <section>
+                            @if (string.IsNullOrWhiteSpace(CurrentPage.Image) == false)
+                            {
+                                <span class="image image-full"><img src="@CurrentPage.Image" alt="" /></span>
+                            }
+
+                            @CurrentPage.BodyText
+                        </section>                           
+                    </article>
+                    <!-- /Content -->
+                </div>
+            </div>
+            <div class="3u">
+                <div class="sidebar">
+                    <!-- Sidebar -->
+                    @{ Html.RenderPartial("umbLatestNewsWidget"); }
+                    <!-- /Sidebar -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="12u">
+                @{ Html.RenderPartial("umbFeatures"); }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Main -->]]></Design>
+    </Template>
+    <Template>
+      <Name>News Overview</Name>
+      <Alias>umbNewsOverview</Alias>
+      <Master>umbLayout</Master>
+      <Design><![CDATA[@inherits UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";
+
+    // If the editor has not explicitly provided the "Page title" property page 
+    // then just show the name of the page otherwise show the provided title
+    var pageTitle = string.IsNullOrWhiteSpace(CurrentPage.Title)
+        ? CurrentPage.Name
+        : CurrentPage.Title;
+
+    // Model.Content is the current page that we're on
+    // AncestorsOrSelf is all of the ancestors this page has in the tree
+    // (1) means: go up to level 1 and stop looking for more ancestors when you get there
+    // First() gets the first ancestor found (the home page, on level 1)
+    var homePage = CurrentPage.AncestorsOrSelf(1).First();    
+    
+    // Find all pages with document type alias umbNewsOverview
+    // We do that using the plural, umbNewsOverviews (note the extra "s" in the end)
+    // Then take the first one, as we know there will only be on news overview page
+    var newsOverview = homePage.umbNewsOverviews.First();
+
+    // Similar to above: find all pages with document type umbNewsItem under the news overview page
+    // Then order them, first by publishDate (a property the editor can explicitly set on the news item)
+    // and then by createDate, which is set by Umbraco automatically when a page gets created.
+    var newsItems = newsOverview.umbNewsItems.OrderBy("publishDate desc, createDate desc").Take(5);
+
+}
+<!-- Main -->
+<div id="main-wrapper">
+    <div id="main" class="container">
+        <div class="row">
+            <div class="12u skel-cell-mainContent">
+                <div class="content">
+                    <!-- Content -->
+                    <article class="is-page-content">
+                        <header>
+                            <h2>@pageTitle</h2>
+                        </header>
+
+                        @foreach (var item in newsItems)
+                        {
+
+                            // If the editor has not explicitly provided the "Page title" property page 
+                            // then just show the name of the page otherwise show the provided title
+                            var title = string.IsNullOrWhiteSpace(item.Title) 
+                                ? item.Name 
+                                : item.Title;
+
+
+                            // If the editor has not explicitly set the publishDate property then show the create date
+                            var dateTime = item.PublishDate == default(DateTime) 
+                                ? item.CreateDate 
+                                : item.PublishDate;
+                            
+                            <section>
+                                <h3><a href="@item.Url">@title</a></h3>
+                                <span class="byline">@item.SubHeader</span>
+                                <ul class="meta">
+                                    <li class="timestamp">@dateTime.ToString("f")</li>
+                                </ul>
+
+                                @if (string.IsNullOrWhiteSpace(item.Image) == false)
+                                {
+                                    <a href="@item.Url" class="image image-full"><img src="@item.Image" alt="" /></a>
+                                }
+
+                                @Umbraco.Truncate(item.BodyText, 200)
+
+                                <a href="@item.Url" class="button">Continue Reading</a>
+                            </section>
+                        }
+                    </article>
+                    <!-- /Content -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="12u">
+                @{ Html.RenderPartial("umbFeatures"); }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Main -->
+]]></Design>
+    </Template>
+    <Template>
+      <Name>Text Page</Name>
+      <Alias>umbTextPage</Alias>
+      <Master>umbLayout</Master>
+      <Design><![CDATA[@inherits UmbracoTemplatePage
+@{
+    Layout = "umbLayout.cshtml";
+
+    // If the editor has not explicitly provided the "Page title" property page 
+    // then just show the name of the page otherwise show the provided title
+    var pageTitle = string.IsNullOrWhiteSpace(CurrentPage.Title)
+        ? CurrentPage.Name
+        : CurrentPage.Title;    
+}
+<div id="main-wrapper">
+    <div id="main" class="container">
+        <div class="row">
+            <div class="9u skel-cell-mainContent">
+                <div class="content content-left">
+                    <!-- Content -->
+                    <article class="is-page-content">
+                        <header>
+                            <h2>@pageTitle</h2>
+                        </header>
+                        <section>
+                            @if (string.IsNullOrWhiteSpace(CurrentPage.Image) == false)
+                            {
+                                <span class="image image-full"><img src="@CurrentPage.Image" alt="" /></span>
+                            }
+
+                            @CurrentPage.BodyText
+                        </section>                           
+                    </article>
+                    <!-- /Content -->
+                </div>
+            </div>
+            <div class="3u">
+                <div class="sidebar">
+                    <!-- Sidebar -->
+                    @{ Html.RenderPartial("umbLatestNewsWidget"); }
+                    <!-- /Sidebar -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="12u">
+                @{ Html.RenderPartial("umbFeatures"); }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Main -->]]></Design>
+    </Template>
+  </Templates>
+  <Stylesheets>
+    <Stylesheet>
+      <Name>ie7</Name>
+      <FileName>ie7</FileName>
+      <Content><![CDATA[/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>ie8</Name>
+      <FileName>ie8</FileName>
+      <Content><![CDATA[/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+	}
+
+		#banner-wrapper:before
+		{
+			display: none;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		background: #f8f8f8;
+	}
+
+		#nav:after
+		{
+			display: none;
+		}
+		
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		background: rgb(21, 28, 23);
+	}
+
+		#banner:before
+		{
+			display: none;
+		}
+
+		#banner:after
+		{
+		}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>ie9</Name>
+      <FileName>ie9</FileName>
+      <Content><![CDATA[/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Mobile UI                                                                     */
+/*********************************************************************************/
+
+	#mobileUI-site-nav
+	{
+		background: url('images/mobileUI-site-nav.svg');
+	}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>skel-noscript</Name>
+      <FileName>skel-noscript</FileName>
+      <Content><![CDATA[/* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
+
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}table{border-collapse:collapse;border-spacing:0;}body{-webkit-text-size-adjust:none}
+
+/* Box Model */
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* Container */
+
+	body {
+		min-width: 1200px;
+	}
+
+	.container {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	/* Modifiers */
+	
+		.container.small {
+			width: 900px;
+		}
+
+		.container.big {
+			width: 100%;
+			max-width: 1500px;
+			min-width: 1200px;
+		}
+
+/* Grid */
+
+	/* Cells */
+
+		.\31 2u { width: 100% }
+		.\31 1u { width: 91.6666666667% }
+		.\31 0u { width: 83.3333333333% }
+		.\39 u { width: 75% }
+		.\38 u { width: 66.6666666667% }
+		.\37 u { width: 58.3333333333% }
+		.\36 u { width: 50% }
+		.\35 u { width: 41.6666666667% }
+		.\34 u { width: 33.3333333333% }
+		.\33 u { width: 25% }
+		.\32 u { width: 16.6666666667% }
+		.\31 u { width: 8.3333333333% }
+		.\-11u { margin-left: 91.6666666667% }
+		.\-10u { margin-left: 83.3333333333% }
+		.\-9u { margin-left: 75% }
+		.\-8u { margin-left: 66.6666666667% }
+		.\-7u { margin-left: 58.3333333333% }
+		.\-6u { margin-left: 50% }
+		.\-5u { margin-left: 41.6666666667% }
+		.\-4u { margin-left: 33.3333333333% }
+		.\-3u { margin-left: 25% }
+		.\-2u { margin-left: 16.6666666667% }
+		.\-1u { margin-left: 8.3333333333% }
+
+		.row > * {
+			padding: 40px 0 0 40px;
+			float: left;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.row + .row > * {
+			padding-top: 40px;
+		}
+
+		.row {
+			margin-left: -40px;
+		}
+
+	/* Rows */
+
+		.row:after {
+			content: '';
+			display: block;
+			clear: both;
+			height: 0;
+		}
+
+		.row:first-child > * {
+			padding-top: 0;
+		}
+
+		.row > * {
+			padding-top: 0;
+		}
+
+		/* Modifiers */
+
+			/* Flush */
+
+				.row.flush {
+					margin-left: 0;
+				}
+
+				.row.flush > * {
+					padding: 0 !important;
+				}
+
+			/* Quarter */
+
+				.row.quarter > * {
+					padding: 10px 0 0 10px;
+				}
+
+				.row.quarter + .row.quarter > * {
+					padding-top: 10px;
+				}
+
+				.row.quarter {
+					margin-left: -10px;
+				}
+
+			/* Half */
+
+				.row.half > * {
+					padding: 20px 0 0 20px;
+				}
+
+				.row.half + .row.half > * {
+					padding-top: 20px;
+				}
+
+				.row.half {
+					margin-left: -20px;
+				}
+
+			/* One and (a) Half */
+
+				.row.oneandhalf > * {
+					padding: 60px 0 0 60px;
+				}
+
+				.row.oneandhalf + .row.oneandhalf > * {
+					padding-top: 60px;
+				}
+
+				.row.oneandhalf {
+					margin-left: -60px;
+				}
+
+			/* Double */
+
+				.row.double > * {
+					padding: 80px 0 0 80px;
+				}
+
+				.row.double + .row.double > * {
+					padding-top: 80px;
+				}
+
+				.row.double {
+					margin-left: -80px;
+				}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>style</Name>
+      <FileName>style</FileName>
+      <Content><![CDATA[/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	*
+	{
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	body
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		background: #f2f5f3;
+		color: #6b7770;
+		font-size: 11.5pt;
+		line-height: 2em;
+	}
+	
+	h1, h2, h3, h4, h5, h6, h7
+	{
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #6b7770;
+	}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h7 a
+	{
+		text-decoration: none;
+		color: inherit;
+	}
+
+	
+	h2.major
+	{
+		position: relative;
+		border-top: solid 5px #e7eae8;
+	}
+
+		h2.major span
+		{
+			background: #fff;
+			position: relative;
+			display: inline-block;
+		}
+
+		#footer h2.major span
+		{
+			background: #f2f5f3;
+		}
+	
+	a
+	{
+		color: #006376;
+		text-decoration: underline;
+	}
+
+		a:hover
+		{
+			text-decoration: none;
+		}
+
+	form
+	{
+	}
+	
+		form input,
+		form select,
+		form textarea
+		{
+			-webkit-appearance: none;
+		}
+			
+	br.clear
+	{
+		clear: both;
+	}
+	
+	p, ul, ol, dl, table
+	{
+		margin-bottom: 3em;
+	}
+	
+	section,
+	article
+	{
+		margin-bottom: 6em;
+	}
+	
+	section > :last-child,
+	article > :last-child
+	{
+		margin-bottom: 0;
+	}
+
+	section:last-child,
+	article:last-child
+	{
+		margin-bottom: 0;
+	}
+
+	.byline
+	{
+		display: block;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #c1cac5;
+	}
+
+	.image
+	{
+		position: relative;
+		display: inline-block;
+		border-radius: 8px;
+	}
+	
+		.image img
+		{
+			display: block;
+			width: 100%;
+			border-radius: 8px;
+		}
+		
+		/*
+			Note: The following style adds the textured/pixelated look to content
+			images. I added this to help mask the distortion introduced when a browser
+			resizes an image, but if you don't want this to happen just remove or comment
+			out the entire style.
+		*/
+		
+		.image:before
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			opacity: 0.2;
+			border-radius: 8px;
+		}
+
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+
+		.image-centered img
+		{
+			margin: 0 auto;
+			width: auto;
+		}
+		
+	.button
+	{
+		display: inline-block;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		text-decoration: none;
+		background: #e3daa8;
+		color: #fff;
+		border-radius: 8px;
+		outline: 0;
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-o-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+	}
+
+		.button:hover
+		{
+			background: #ebe3b2;
+		}
+	
+		.button-alt
+		{
+			background: #c1cac5;
+		}
+
+			.button-alt:hover
+			{
+				background: #ccd5d0;
+			}
+
+	.actions
+	{
+	}
+
+	ul.style1
+	{
+		list-style: disc;
+		padding-left: 1.5em;
+	}
+
+	ul.style2
+	{
+	}
+	
+		ul.style2 > li
+		{
+			border-top: solid 2px #e7eae8;
+			padding-top: 2.35em;
+			margin-top: 2.35em;
+		}
+		
+		ul.style2 > li:first-child
+		{
+			border-top: 0;
+			padding-top: 0;
+			margin-top: 0;
+		}
+
+	ul.contact
+	{
+	}
+	
+		ul.contact li
+		{
+			position: relative;
+			display: inline-block;
+			margin: 0 0.25em 0 0.25em;
+			top: 0;
+			-moz-transition: top .15s ease-in-out;
+			-webkit-transition: top .15s ease-in-out;
+			-o-transition: top .15s ease-in-out;
+			-ms-transition: top .15s ease-in-out;
+			transition: top .15s ease-in-out;
+		}
+
+			ul.contact li a
+			{
+				display: block;
+				position: relative;
+				background: #c1cac5 url('images/icons-contact.png');
+				width: 48px;
+				height: 48px;
+				text-indent: -9999px;
+				border-radius: 6px;
+				outline: 0;
+				-moz-transition: background-color .2s ease-in-out;
+				-webkit-transition: background-color .2s ease-in-out;
+				-o-transition: background-color .2s ease-in-out;
+				-ms-transition: background-color .2s ease-in-out;
+				transition: background-color .2s ease-in-out;
+			}
+			
+				ul.contact li a.facebook				{ background-position: 0px 0px; }
+					ul.contact li:hover a.facebook		{ background-color: #3C5A98; }
+				ul.contact li a.twitter					{ background-position: -48px 0px; }
+					ul.contact li:hover a.twitter		{ background-color: #2DAAE4; }
+				ul.contact li a.rss						{ background-position: -96px 0px; }
+					ul.contact li:hover a.rss			{ background-color: #F2600B; }
+				ul.contact li a.dribbble				{ background-position: -144px 0px; }
+					ul.contact li:hover a.dribbble		{ background-color: #C4376B; }
+				ul.contact li a.linkedin				{ background-position: -192px 0px; }
+					ul.contact li:hover a.linkedin		{ background-color: #006599; }
+				ul.contact li a.tumblr					{ background-position: -240px 0px; }
+					ul.contact li:hover a.tumblr		{ background-color: #31516A; }
+				ul.contact li a.googleplus				{ background-position: -288px 0px; }
+					ul.contact li:hover a.googleplus	{ background-color: #DA2713; }
+
+			ul.contact li:hover
+			{
+				top: -5px;
+			}
+
+			ul.contact li:active
+			{
+				top: 0;
+			}
+
+	ul.special
+	{
+	}
+	
+		ul.special li
+		{
+			position: relative;
+			display: inline-block;
+			margin: 0 1.5em 0 1.5em;
+			top: 0;
+			-moz-transition: top .15s ease-in-out;
+			-webkit-transition: top .15s ease-in-out;
+			-o-transition: top .15s ease-in-out;
+			-ms-transition: top .15s ease-in-out;
+			transition: top .15s ease-in-out;
+		}
+
+			ul.special li:hover
+			{
+				top: -10px;
+			}
+
+				ul.special li:hover a
+				{
+					background: #b9d2ce;
+				}
+
+			ul.special a
+			{
+				display: block;
+				position: relative;
+				background: #c1cac5;
+				width: 12em;
+				height: 12em;
+				border-radius: 6em;
+				text-indent: -9999px;
+				outline: 0;
+				-moz-transition: background-color .2s ease-in-out;
+				-webkit-transition: background-color .2s ease-in-out;
+				-o-transition: background-color .2s ease-in-out;
+				-ms-transition: background-color .2s ease-in-out;
+				transition: background-color .2s ease-in-out;
+			}
+
+				ul.special a:before
+				{
+					content: '';
+					position: absolute;
+					width: 128px;
+					height: 128px;
+					left: 50%;
+					top: 50%;
+					margin-top: -64px;
+					margin-left: -64px;
+					background: url('images/icons-special.png');
+				}
+				
+					ul.special a.battery:before
+					{
+						background-position: 0px 0px;
+					}
+				
+					ul.special a.tablet:before
+					{
+						background-position: -128px 0px;
+					}
+				
+					ul.special a.flask:before
+					{
+						background-position: -256px 0px;
+					}
+				
+					ul.special a.chart:before
+					{
+						background-position: -384px 0px;
+					}
+
+	ul.meta
+	{
+		font-size: 0.85em;
+		color: #a1aaa5;
+	}
+	
+		ul.meta li
+		{
+			position: relative;
+			display: inline-block;
+			padding-left: 24px;
+			margin-left: 1em;
+		}
+
+			ul.meta li a
+			{
+				color: inherit;
+				outline: 0;
+			}
+
+		ul.meta li:first-child
+		{
+			margin-left: 0;
+		}
+		
+		ul.meta li:before
+		{
+			content: '';
+			display: block;
+			position: absolute;
+			width: 16px;
+			height: 16px;
+			left: 0;
+			top: 50%;
+			margin-top: -8px;
+			background: url('images/icons-meta.png');
+		}
+		
+			ul.meta li.timestamp:before
+			{
+				background-position: 0px 0px;
+			}
+		
+			ul.meta li.comments:before
+			{
+				background-position: -16px 0px;
+			}
+
+/*********************************************************************************/
+/* Section + Article Types                                                       */
+/*********************************************************************************/
+
+	.is-highlight
+	{
+		text-align: center;
+	}
+
+	.is-features
+	{
+	}
+	
+	.is-feature
+	{
+	}
+
+	.is-blog
+	{
+	}
+
+	.is-post
+	{
+	}
+
+	.is-post-summary
+	{
+	}
+
+	.is-page-content
+	{
+	}
+
+/*********************************************************************************/
+/* Sidebar + Content                                                             */
+/*********************************************************************************/
+
+	.sidebar
+	{
+	}
+	
+	.content
+	{
+	}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+		position: relative;
+		background: url('../images/banner.jpg') center center no-repeat;
+		background-size: cover;
+		z-index: 1;
+	}
+
+		/*
+			Note: The following style adds the textured/pixelated look to the banner
+			image. I added this to help mask the distortion introduced when a browser
+			resizes an image, but if you don't want this to happen just remove or comment
+			out the entire style.
+		*/
+
+		#banner-wrapper:before
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			opacity: 0.175;
+		}
+	
+	#main-wrapper
+	{
+		background: #fff;
+		border-top: solid 5px #e3daa8;
+		border-bottom: solid 5px #c1cac5;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+	}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		position: relative;
+		background: rgba(21, 28, 23, 0.95);
+		text-align: center;
+		z-index: 2;
+	}
+
+		#banner:before
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/highlight.png') center center;
+			background-size: 100% 200%;
+		}
+
+		#banner:after
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			opacity: 0.25;
+		}
+	
+		#banner > *
+		{
+			position: relative;
+			z-index: 3;
+		}
+	
+		#banner h2
+		{
+			color: #fff;
+		}
+		
+		#banner .byline
+		{
+			color: #575d59;
+		}
+
+		#banner .button
+		{
+			color: #b4b7b5;
+			background: transparent !important;
+			border: solid 4px rgba(87, 93, 89, 0.35);
+			border-radius: 16px;
+			-moz-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+			-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+			-o-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+			-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+			transition: border-color .2s ease-in-out, color .2s ease-in-out;
+		}
+
+			#banner .button:hover
+			{
+				color: #e4e7e5;
+				border-color: rgba(87, 93, 89, 0.75);
+			}
+
+			#banner .button:active
+			{
+				color: #fff;
+				border-color: rgba(97, 103, 99, 1.0);
+			}
+
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+	
+		#footer a
+		{
+			color: inherit;
+		}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		display: inline-block;
+		background: #e7eae8;
+		padding: 0.75em 2em 0.75em 2em;
+		border-radius: 8px;
+		font-size: 0.85em;
+		color: #8b9790;
+	}
+	
+		#copyright a
+		{
+			color: inherit;
+		}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>style-1000px</Name>
+      <FileName>style-1000px</FileName>
+      <Content><![CDATA[/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		min-width: 960px;
+		font-size: 10.25pt;
+		line-height: 1.75em;
+	}
+
+	h2.major
+	{
+		margin: 0 0 2em 0;
+	}
+
+		h2.major span
+		{
+			top: -0.75em;
+			padding: 0 1em 0 1em;
+		}
+
+		#footer-wrapper h2.major
+		{
+			margin: 0 0 1em 0;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+		padding: 6em 0 6em 0;
+	}
+	
+	#main-wrapper
+	{
+		border-top-width: 20px;
+		border-bottom-width: 10px;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		padding: 5em 0 2em 0;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding: 4em 0 3.5em 0;
+	}
+
+		#banner h2
+		{
+			margin: 0 0 0.5em 0;
+		}
+		
+		#banner .byline
+		{
+			margin: 0 0 1.5em 0;
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 3em 0 2em 0;
+	}
+
+		#main > .row
+		{
+			padding: 2em 0 2em 0;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		text-align: center;
+		padding: 4em 0 4em 0;
+	}
+	
+		#footer > .row
+		{
+			padding: 2em 0 2em 0;
+		}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		margin: 0;
+	}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>style-desktop</Name>
+      <FileName>style-desktop</FileName>
+      <Content><![CDATA[/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		min-width: 1200px;
+	}
+
+	h1, h2, h3, h4, h5, h6, h7
+	{
+		margin: 0 0 0.5em 0;
+	}
+
+	h2
+	{
+		font-size: 1.65em;
+	}
+
+		h2.major
+		{
+			font-size: 1.65em;
+			text-align: center;
+			margin: 0 0 3em 0;
+		}
+
+			h2.major span
+			{
+				top: -0.775em;
+				padding: 0 1.5em 0 1.5em;
+			}
+
+			#footer h2.major
+			{
+				margin: 0 0 1em 0;
+			}
+			
+			.sidebar h2.major
+			{
+				text-align: left;
+				margin: 0 0 1em 0;
+			}
+			
+				.sidebar h2.major span
+				{
+					padding-left: 0;
+				}
+
+	h3
+	{
+		font-size: 1.25em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	.button
+	{
+		font-size: 1.25em;
+		padding: 0.85em 1.85em 0.85em 1.85em;
+	}
+
+	.button-big
+	{
+		font-size: 1.65em;
+		padding: 0.85em 1.85em 0.85em 1.85em;
+	}
+	
+	.actions
+	{
+		text-align: center;
+		margin: 2em 0 0 0;
+	}
+	
+		.actions .button
+		{
+			margin: 0 0.5em 0 0.5em;
+		}
+
+/*********************************************************************************/
+/* Section + Article Types                                                       */
+/*********************************************************************************/
+
+	.is-highlight
+	{
+	}
+	
+		.is-highlight .special
+		{
+			margin: 0 0 4em 0;
+		}
+
+		.is-highlight h2
+		{
+			font-size: 3em;
+			margin: 0 0 0.75em 0;
+		}
+
+		.is-highlight .byline
+		{
+			font-size: 1.65em;
+			margin: 0 0 1.5em 0;
+		}
+
+	.is-feature
+	{
+		text-align: center;
+	}
+	
+	.is-post
+	{
+	}
+
+		.is-post header
+		{
+			margin: 0 0 2.5em 0;
+		}
+
+		.is-post h3
+		{
+			font-size: 3em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-post .byline
+		{
+			font-size: 1.65em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-post ul.meta
+		{
+			margin: 0 0 0.5em 0;
+		}
+	
+	.is-post-summary
+	{
+	}
+	
+		.is-post-summary h3
+		{
+			line-height: 1em;
+			margin: 0 0 0.75em 0;
+		}
+
+		.is-post-summary .meta
+		{
+			margin: 0;
+			line-height: 1em;
+		}
+
+	.is-page-content
+	{
+	}
+
+		.is-page-content header
+		{
+			margin: 0 0 2.5em 0;
+		}
+
+		.is-page-content h2
+		{
+			font-size: 3em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-page-content .byline
+		{
+			font-size: 1.65em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-page-content ul.meta
+		{
+			margin: 0 0 0.5em 0;
+		}
+
+/*********************************************************************************/
+/* Sidebar + Content                                                             */
+/*********************************************************************************/
+
+	.sidebar
+	{
+		padding-top: 0.5em;
+	}
+	
+		.homepage .sidebar
+		{
+			padding-top: 0;
+		}
+
+	.content
+	{
+	}
+
+		.content-left
+		{
+			padding-right: 2em;
+		}
+	
+		.content-right
+		{
+			padding-left: 2em;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+		padding: 8em 0 8em 0;
+	}
+	
+	#main-wrapper
+	{
+		border-top-width: 35px;
+		border-bottom-width: 10px;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		text-align: center;
+		font-size: 2em;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 6em 0 3em 0;
+		background: #fff;
+		margin: 0 auto;
+	}
+
+		#header .logo
+		{
+			position: relative;
+			text-align: center;
+			border-top: solid 5px #e7eae8;
+		}
+
+			#header .logo div
+			{
+				background: #fff;
+				position: relative;
+				display: inline-block;
+				padding: 0 1.5em 0 1.5em;
+				top: -0.65em;
+			}
+		
+			#header .logo h1,
+			#header .logo .byline
+			{
+				display: inline;
+			}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		background: rgba(255,255,255,0.95);
+		width: 100%;
+		height: 3.5em;
+		line-height: 3.5em;
+		text-align: center;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+		#nav:after
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			opacity: 0.03;
+		}
+
+		#nav ul
+		{
+			position: relative;
+			z-index: 1001;
+		}
+	
+		#nav li
+		{
+			display: inline-block;
+			margin: 0 0.5em 0 0.5em;
+			top: 0;
+			position: relative;
+			-moz-transition: top .15s ease-in-out;
+			-webkit-transition: top .15s ease-in-out;
+			-o-transition: top .15s ease-in-out;
+			-ms-transition: top .15s ease-in-out;
+			transition: top .15s ease-in-out;
+		}
+
+			#nav li a
+			{
+				position: relative;
+				display: block;
+				text-decoration: none;
+				color: #6b7770;
+				top: -3px;
+				padding: 3px 1.5em 0.25em 1.5em;
+				border-bottom-left-radius: 6px;
+				border-bottom-right-radius: 6px;
+				outline: 0;
+				-moz-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-webkit-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-o-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-ms-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				transition: background-color .075s ease-in-out, color .075s ease-in-out;
+			}
+
+			#nav li:hover
+			{
+				top: 3px;
+			}
+
+				#nav li:hover a
+				{
+					background: #C1CAC5;
+					color: #fff;
+				}
+
+			#nav li.current_page_item
+			{
+			}
+
+				#nav li.current_page_item a
+				{
+					background: #e3daa8;
+					color: #fff;
+				}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding: 5em 0 5em 0;
+	}
+	
+		#banner h2
+		{
+			font-size: 2.75em;
+			margin: 0 0 0.75em 0;
+		}
+		
+		#banner .byline
+		{
+			font-size: 1.35em;
+			margin: 0 0 1.75em 0;
+		}
+
+		#banner .button
+		{
+			font-size: 1.5em;
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 4em 0 4em 0;
+	}
+
+		#main > .row
+		{
+			padding: 3em 0 3em 0;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		text-align: center;
+		padding: 8em 0 8em 0;
+	}
+	
+		#footer > .row
+		{
+			padding: 2em 0 2em 0;
+		}
+	
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		margin: 4em 0 0 0;
+	}
+]]></Content>
+    </Stylesheet>
+    <Stylesheet>
+      <Name>style-mobile</Name>
+      <FileName>style-mobile</FileName>
+      <Content><![CDATA[/*
+	TXT 2.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		line-height: 1.75em;
+		font-size: 10pt;
+		letter-spacing: 0;
+	}
+
+	h2, h3, h4, h5, h6
+	{
+		font-size: 1.5em;
+		margin: 0 0 0.5em 0;
+	}
+
+	h2.major
+	{
+		text-align: left;
+		margin: 0.775em 0 0.75em 0;
+	}
+
+		h2.major span
+		{
+			top: -0.775em;
+			padding: 0 1em 0 0;
+		}
+
+	h3
+	{
+		font-size: 1.25em;
+	}
+
+	section,
+	article
+	{
+		clear: both;
+		margin: 0 0 2.5em 0 !important;
+	}
+	
+	.byline
+	{
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+
+	.button
+	{
+		font-size: 1.5em;
+		width: 100%;
+		padding: 0.75em 0 0.75em 0;
+		margin-top: 0.5em;
+		text-align: center;
+	}
+
+	ul.special
+	{
+	}
+	
+		ul.special li
+		{
+			margin: 0.1em;
+		}
+
+			ul.special li:hover
+			{
+				top: 0;
+			}
+
+			ul.special a
+			{
+				width: 9.5em;
+				height: 9.5em;
+				border-radius: 4.75em;
+			}
+
+				ul.special a:before
+				{
+					width: 128px;
+					height: 128px;
+					left: 50%;
+					top: 50%;
+					margin-top: -64px;
+					margin-left: -64px;
+					background: url('images/icons-special.png');
+				}
+
+	ul.contact
+	{
+	}
+	
+		ul.contact li
+		{
+			margin: 0 0.15em 0.35em 0;
+			top: 0 !important;
+		}
+
+/*********************************************************************************/
+/* Section + Article Types                                                       */
+/*********************************************************************************/
+
+	.is-highlight
+	{
+	}
+	
+		.is-highlight .special
+		{
+		}
+
+		.is-highlight h2
+		{
+			font-size: 2.25em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-highlight .byline
+		{
+			margin: 0 0 0.75em 0;
+		}
+		
+		.is-highlight br
+		{
+			display: none;
+		}
+
+	.is-post-summary
+	{
+		margin: 0 !important;
+	}
+	
+		.is-post-summary h3
+		{
+			font-size: 1.25em;
+		}
+
+	.is-post
+	{
+	}
+
+		.is-post h3
+		{
+			font-size: 2.25em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-post .byline
+		{
+			margin: 0 0 0.75em 0;
+		}
+		
+		.is-post ul.meta
+		{
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-post header
+		{
+			margin: 0 0 3em 0;
+		}
+
+	.is-page-content
+	{
+	}
+
+		.is-page-content h2
+		{
+			font-size: 2.25em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-page-content .byline
+		{
+			margin: 0 0 0.75em 0;
+		}
+		
+		.is-page-content ul.meta
+		{
+			margin: 0 0 0.5em 0;
+		}
+
+		.is-page-content header
+		{
+			margin: 0 0 3em 0;
+		}
+
+/*********************************************************************************/
+/* Sidebar + Content                                                             */
+/*********************************************************************************/
+
+	.sidebar
+	{
+		border-top: solid 2px #e7eae8;
+		padding-top: 5em;
+		margin-top: 5em;
+
+		border-bottom: solid 2px #e7eae8;
+		padding-bottom: 5em;
+	}
+	
+		.sidebar > section
+		{
+			margin: 0 0 5em 0 !important;
+		}
+	
+		.sidebar > section:last-child
+		{
+			margin: 0 !important;
+		}
+	
+	.content
+	{
+		padding-top: 3em;
+	}
+
+		.homepage .content
+		{
+			padding-top: 0;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+		padding: 12em 0 8em 0;
+	}
+	
+	#main-wrapper
+	{
+		border-top-width: 0px;
+		border-bottom-width: 5px;
+	}
+
+		.homepage #main-wrapper
+		{
+			border-top-width: 15px;
+		}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		display: none;
+	}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		display: none;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding: 3em 20px 3em 20px;
+		margin: 0 !important;
+	}
+
+		#banner h2
+		{
+			font-size: 2.25em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+		}
+
+		#banner .byline
+		{
+			margin: 0 0 0.5em 0;
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 1em 20px 1em 20px;
+	}
+
+		#main > .row
+		{
+			padding: 2em 0 2em 0;
+		}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		padding: 4em 20px 2em 20px;
+	}
+	
+		#footer > .row
+		{
+			padding: 1em 0 1em 0;
+		}
+
+/*********************************************************************************/
+/* Mobile UI                                                                     */
+/*********************************************************************************/
+
+	#titleBar
+	{
+		background: rgba(21, 38, 23, 0.8);
+	}
+
+		#titleBar:after
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			opacity: 0.15;
+		}
+
+		#titleBar .title
+		{
+			display: block;
+			position: relative;
+			font-family: 'Open Sans Condensed', sans-serif;
+			font-weight: 700;
+			text-transform: uppercase;
+			font-size: 1.25em;
+			line-height: 44px;
+			color: #fff;
+			z-index: 1000;
+			text-align: center;
+		}
+
+		#titleBar .toggle
+		{
+			position: absolute;
+			left: 0;
+			top: 0;
+			text-indent: -9999px;
+			background: #e3daa8 url('images/mobileUI-site-nav-opener-bg.svg') 8px 14px no-repeat;
+			width: 44px;
+			height: 44px;
+			z-index: 1001;
+		}
+
+			#titleBar .toggle:active
+			{
+				background-color: #ebe3b2;
+			}
+
+	#navPanel
+	{
+		background: -moz-linear-gradient(top, #252c27, #000);
+		background: -webkit-linear-gradient(top, #252c27, #000);
+		background: -o-linear-gradient(top, #252c27, #000);
+		background: -ms-linear-gradient(top, #252c27, #000);
+		background: linear-gradient(top, #252c27, #000);
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 1.25em;
+		box-shadow: inset -3px 0px 10px 0px rgba(0,0,0,0.25);
+	}
+
+		#navPanel nav
+		{
+			position: relative;
+			z-index: 1000;
+		}
+
+		#navPanel:after
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/overlay.png');
+			opacity: 0.25;
+		}
+
+		#navPanel .link
+		{
+			display: block;
+			color: inherit;
+			text-decoration: none;
+			height: 44px;
+			line-height: 44px;
+			padding: 0 1em 0 1em;
+			color: #fff;
+			border-top: solid 2px rgba(87, 93, 89, 0.15);
+		}
+		
+		#navPanel .link:first-child
+		{
+			border-top: 0;
+		}
+]]></Content>
+    </Stylesheet>
+  </Stylesheets>
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  <Actions>
+    <Action runat="install" undo="false" alias="TxtInstaller" />
+  </Actions>
+</umbPackage>
