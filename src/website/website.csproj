@@ -207,6 +207,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\skel.css" />
+    <Content Include="css\style-mobile.css" />
+    <Content Include="css\style-narrow.css" />
+    <Content Include="css\style-narrower.css" />
+    <Content Include="css\style-normal.css" />
+    <Content Include="css\style-noscript.css" />
+    <Content Include="css\style-wide.css" />
+    <Content Include="css\style.css" />
+    <Content Include="js\config.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\init.js" />
+    <Content Include="js\jquery.dropotron.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.scrollgress.min.js" />
+    <Content Include="js\jquery.scrolly.min.js" />
+    <Content Include="js\skel-layers.min.js" />
+    <Content Include="js\skel-panels.min.js" />
+    <Content Include="js\skel.min.js" />
     <Content Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="macroScripts\Web.config" />
@@ -229,6 +248,17 @@
     <Content Include="config\404handlers.config" />
     <Content Include="Views\Home.cshtml" />
     <Content Include="Views\Base.cshtml" />
+    <Content Include="Views\LeftSidebar.cshtml" />
+    <Content Include="Views\RightSidebar.cshtml" />
+    <Content Include="Views\Partials\umbAbout.cshtml" />
+    <Content Include="Views\Partials\umbFeatures.cshtml" />
+    <Content Include="Views\Partials\umbHomepageBanner.cshtml" />
+    <Content Include="Views\Partials\umbLatestNewsWidget.cshtml" />
+    <Content Include="Views\Partials\umbNewsOverviewWidget.cshtml" />
+    <Content Include="Views\Partials\umbSocial.cshtml" />
+    <Content Include="Views\Partials\umbTopNavigation.cshtml" />
+    <Content Include="Views\Partials\Footer.cshtml" />
+    <Content Include="Views\Partials\Header.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -238,7 +268,6 @@
     <Content Include="xslt\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\dummy.txt" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="masterpages\dummy.txt" />
