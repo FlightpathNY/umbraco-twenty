@@ -1,14 +1,23 @@
-﻿<!-- Footer -->
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.FooterViewModel>
+
+<!-- Footer -->
 <footer id="footer">
     <ul class="icons">
-        <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-        <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-        <li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+        @RenderLinkIfNotEmpty(Model.TwitterLink, "icon circle fa-twitter", "Facebook")
+        @RenderLinkIfNotEmpty(Model.FacebookLink, "icon circle fa-facebook", "Facebook")
+        @RenderLinkIfNotEmpty(Model.GooglePlusLink, "icon circle fa-google-plus", "Facebook")
+        @RenderLinkIfNotEmpty(Model.GithubLink, "icon circle fa-github", "Facebook")
+        @RenderLinkIfNotEmpty(Model.DribbleLink, "icon circle fa-dribbble", "Facebook")
     </ul>
     <ul class="copyright">
-        <li>&copy; Untitled</li>
+        <li>@Model.Copyright</li>
         <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
     </ul>
 </footer>
+@helper RenderLinkIfNotEmpty(dynamic link, string cssClass, string linkName)
+{
+    if (string.IsNullOrEmpty(link) == false)
+    {
+        <li><a href="@link" class="@cssClass"><span class="label">@linkName</span></a></li>
+    }
+}

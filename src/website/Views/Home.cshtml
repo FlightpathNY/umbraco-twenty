@@ -1,7 +1,8 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.HomeViewModel>
 @{
     Layout = "Base.cshtml";
 }
+@section HeaderClass {alt }
 @section BodyClass {index }
 @section ContentArea {
 <!-- Banner -->
@@ -14,16 +15,12 @@
     -->
     <div class="inner">
         <header>
-            <h2>TWENTY</h2>
+            <h2>@Model.BannerTitle</h2>
         </header>
-        <p>
-            This is <strong>Twenty</strong>, a free<br />
-            responsive template<br />
-            by <a href="http://html5up.net">HTML5 UP</a>.
-        </p>
+        @Html.Raw(Model.BannerCopy)
         <footer>
             <ul class="buttons vertical">
-                <li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
+                <li><a href="#main" class="button fit scrolly">@Model.BannerButtonText</a></li>
             </ul>
         </footer>
     </div>
