@@ -1,0 +1,38 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.BaseViewModel>
+@{
+    int columnCounter = 0;
+    foreach (var callout in Model.Callouts)
+    {
+        if (columnCounter == 0)
+        {
+            @Html.Raw("<div class=\"row\">")
+        }
+        @RenderCallout(Model.CalloutsDisplayImages, Model.CalloutsDisplayButtons, callout);
+        columnCounter++;
+        if (columnCounter == 4) 
+        {
+            @Html.Raw("</div>")
+            columnCounter = 0;
+        }
+    }
+}
+
+@helper RenderCallout(bool displayImage, bool displayButton, UmbracoTwenty.Models.CalloutViewModel callout)
+{
+    <div class="4u">
+
+        <section>
+            <header>
+                <h3>@callout.Title</h3>
+            </header>
+            <p>@Html.Raw(callout.Body)</p>
+            <footer>
+                <ul class="buttons">
+                    <li><a href="#" class="button small">@callout.LinkText</a></li>
+                </ul>
+            </footer>
+        </section>
+
+    </div>
+
+}

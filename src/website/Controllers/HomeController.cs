@@ -25,6 +25,7 @@
             HomeViewModel model = new HomeViewModel();
             Mapper.Map(CurrentPage, model);
             MapFooter(model);
+            MapCallouts(model);
 
             return CurrentTemplate(model);
         }
