@@ -25,7 +25,7 @@ namespace UmbracoTwenty.Controllers
             ArticleViewModel model = new ArticleViewModel();
             Mapper.Map(CurrentPage, model);
             MapFooter(model);
-            MapCallouts(model);
+            //MapCallouts(model);
 
             return CurrentTemplate(model);
         }

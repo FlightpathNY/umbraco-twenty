@@ -9,20 +9,22 @@
     using Umbraco.Web.Models;
     using Umbraco.Web.Mvc;
     using Zone.UmbracoMapper;
-    //using Zone.UmbracoMapper.DampCustomMapping;
     using UmbracoTwenty.Models;
     using Archetype.Models;
     using System.Linq;
 
+    using log4net;
+    using System.Reflection;
+
 
     public abstract class BaseController : SurfaceController, IRenderMvcController
     {
+        protected static ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         protected IUmbracoMapper Mapper { get; set; }
         public BaseController(IUmbracoMapper mapper)
         {
             Mapper = mapper;
-            //Mapper.AddCustomMapping(typeof(MediaFile).FullName, DampMapper.MapMediaFile);
-            //Mapper.MapCollection(CurrentPage, )
         }
 
         #region IRenderMvcController methods
@@ -39,11 +41,11 @@
 
         #endregion
 
-        protected void MapCallouts(BaseViewModel model)
-        {
-            Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName,
-                MapCallouts);
-        }
+        //protected void MapCallouts(BaseViewModel model)
+        //{
+        //    Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName,
+        //        MapCallouts);
+        //}
 
         protected void MapFooter(BaseViewModel model)
         {
@@ -55,6 +57,7 @@
 
         public static object MapCallouts(IUmbracoMapper mapper, IPublishedContent contentToMapFrom, string propName, bool isRecursive)
         {
+            Log.Debug("MapCallouts() called.");
             var result = new List<CalloutViewModel>();
 
             ArchetypeModel archetypeModel = contentToMapFrom.GetPropertyValue<ArchetypeModel>(propName, isRecursive, null);
@@ -71,13 +74,22 @@
 
         private static object GetTypedValue(ArchetypePropertyModel archetypeProperty)
         {
+            Log.Debug("GetTypedValue(ArchetypePropertyModel archetypeProperty)");
+            Log.Debug(archetypeProperty.PropertyEditorAlias + " " + archetypeProperty.Alias +" "+ archetypeProperty.Value);
+
             switch (archetypeProperty.PropertyEditorAlias)
             {
                 case "Umbraco.ContentPickerAlias":
                 case "Umbraco.MediaPicker":
-                    return archetypeProperty.GetValue<IPublishedContent>();
-                case "Umbraco.MultiNodeTreePicker":
-                    return archetypeProperty.GetValue<IEnumerable<IPublishedContent>>();
+                    IPublishedContent v = archetypeProperty.GetValue<IPublishedContent>();
+                    if (v == null)
+                    {
+                        Log.Debug("IPublishedContent is null");
+                        Log.Debug("value: " + archetypeProperty.Value);
+                    }
+                    return v;
+                //case "Umbraco.MultiNodeTreePicker":
+                //    return archetypeProperty.GetValue<IEnumerable<IPublishedContent>>();
                 default:
                     return archetypeProperty.Value;
             }

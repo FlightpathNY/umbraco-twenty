@@ -1,4 +1,5 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.BaseViewModel>
+<div class="row"><div class="4u">Test</div><div class="4u">Test</div><div class="4u">@Model.Callouts.Count()</div></div>
 @{
     int columnCounter = 0;
     foreach (var callout in Model.Callouts)
@@ -25,10 +26,10 @@
             <header>
                 <h3>@callout.Title</h3>
             </header>
-            <p>@Html.Raw(callout.Body)</p>
+            <p>uRL: @Html.Raw(callout.Image.Url)</p>
             <footer>
                 <ul class="buttons">
-                    <li><a href="#" class="button small">@callout.LinkText</a></li>
+                    <li><a href="#" class="button small">[@callout.LinkText]</a></li>
                 </ul>
             </footer>
         </section>
