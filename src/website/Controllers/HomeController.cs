@@ -28,8 +28,6 @@
         public ActionResult Index()
         {
             HomeViewModel model = new HomeViewModel();
-            //MapCallouts(model);
-            var test = CurrentPage.GetPropertyValue<Archetype.Models.ArchetypePropertyModel>("callouts");
             Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName,
                 MapCallouts).Map(CurrentPage, model);
             MapFooter(model);

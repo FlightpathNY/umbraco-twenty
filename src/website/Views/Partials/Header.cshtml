@@ -1,26 +1,50 @@
-﻿    <h1 id="logo"><a href="/">Twenty <span>by HTML5 UP</span></a></h1>
-    <nav id="nav">
-        <ul>
-            <li class="current"><a href="/">Welcome</a></li>
-            <li class="submenu">
-                <a href="">Layouts</a>
-                <ul>
-                    <li><a href="/left-sidebar/">Left Sidebar</a></li>
-                    <li><a href="/right-sidebar/">Right Sidebar</a></li>
-                    <li><a href="/no-sidebar/">No Sidebar</a></li>
-                    <li><a href="/contact/">Contact</a></li>
-                    <li class="submenu">
-                        <a href="">Submenu</a>
-                        <ul>
-                            <li><a href="#">Dolore Sed</a></li>
-                            <li><a href="#">Consequat</a></li>
-                            <li><a href="#">Lorem Magna</a></li>
-                            <li><a href="#">Sed Magna</a></li>
-                            <li><a href="#">Ipsum Nisl</a></li>
-                        </ul>
-                    </li>
-                </ul>
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.BaseViewModel>
+@{
+    IPublishedContent root = Umbraco.TypedContentAtRoot().First();
+}
+<h1 id="logo"><a href="/">Twenty <span>by HTML5 UP</span></a></h1>
+<nav id="nav">
+    <ul>
+        <li class="current"><a href="/">Welcome</a></li>
+        @foreach (var landingpage in root.Children)
+        {
+            bool isSubMenu = landingpage.Children.Count() > 0;
+
+            <li class="@Html.Raw(isSubMenu ? "submenu" : "")">
+                @if (@isSubMenu)
+                {
+                    <a href="" rel="nofollow">@landingpage.Name</a>
+                    <ul>
+                        <li><a href="@landingpage.Url">@landingpage.Name</a></li>
+
+                        @foreach (var childPage in landingpage.Children)
+                        {
+                            bool hasChildren = childPage.Children.Count() > 0;
+                            if (@hasChildren)
+                            {
+                                <li>
+                                    <a href="" rel="nofollow">@childPage.Name</a>
+                                    <ul>
+                                        @foreach (var tertiaryChild in childPage.Children)
+                                        {
+                                        <li><a href="@tertiaryChild.Url">@tertiaryChild.Name</a></li>
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                            else
+                            {
+                                <li><a href="@childPage.Url">@childPage.Name</a></li>
+                            }
+                        }
+                    </ul>
+                }
+                else
+                {
+                <a href="@landingpage.Url">@landingpage.Name</a>
+                }
             </li>
-            <li><a href="#" class="button special">Sign Up</a></li>
-        </ul>
-    </nav>
+        }
+        <li><a href="#" class="button special">Sign Up</a></li>
+    </ul>
+</nav>
