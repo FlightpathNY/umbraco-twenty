@@ -29,6 +29,9 @@ namespace UmbracoTwenty.Models
 
         public IList<MenuItemViewModel> LeftMenuItems { get; set; }
 
+        [PropertyMapping(SourceProperty="DisplayInMenu")]
+        public bool DisplayInMenu { get; set; }
+        
         public IList<MenuItemViewModel> RightMenuItems { get; set; }
 
         public FooterViewModel Footer { get; set; }

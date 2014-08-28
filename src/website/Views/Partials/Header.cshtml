@@ -1,6 +1,7 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.BaseViewModel>
+@using System.Linq;
 @{
-    IPublishedContent root = Umbraco.TypedContent(UmbracoContext.Current.PageId).AncestorOrSelf(1);  // todo: use Model.Root instead
+    IPublishedContent root = Umbraco.TypedContent(UmbracoContext.Current.PageId).AncestorOrSelf(1);
 }
 <h1 id="logo"><a href="/">Twenty <span>by HTML5 UP</span></a></h1>
 <nav id="nav">
@@ -10,9 +11,11 @@
             @RenderMenuLink(menuItem);
         }
 
-        @foreach (var landingpage in root.Children)
+        @foreach (var landingpage in root.Children.Where(x => x.GetPropertyValue<bool>("displayInMenu") == true))
         {
-            bool isSubMenu = landingpage.Children.Count() > 0;
+            IEnumerable<IPublishedContent> submenuItems = landingpage.Children.Where(x => x.GetPropertyValue<bool>("displayInMenu") == true);
+            
+            bool isSubMenu = submenuItems.Count() > 0;
 
             <li class="@Html.Raw(isSubMenu ? "submenu" : "")">
                 @if (@isSubMenu)
@@ -21,15 +24,16 @@
                     <ul>
                         <li><a href="@landingpage.Url">@landingpage.Name</a></li>
 
-                        @foreach (var childPage in landingpage.Children)
+                        @foreach (var submenuItem in submenuItems)
                         {
-                            bool hasChildren = childPage.Children.Count() > 0;
+                            IEnumerable<IPublishedContent> submenuItemChildren = submenuItem.Children.Where(x => x.GetPropertyValue<bool>("displayInMenu") == true);
+                            bool hasChildren = submenuItemChildren.Count() > 0;
                             if (@hasChildren)
                             {
                                 <li>
-                                    <a href="" rel="nofollow">@childPage.Name</a>
+                                    <a href="" rel="nofollow">@submenuItem.Name</a>
                                     <ul>
-                                        @foreach (var tertiaryChild in childPage.Children)
+                                        @foreach (var tertiaryChild in submenuItemChildren)
                                         {
                                             <li><a href="@tertiaryChild.Url">@tertiaryChild.Name</a></li>
                                         }
@@ -38,7 +42,7 @@
                             }
                             else
                             {
-                                <li><a href="@childPage.Url">@childPage.Name</a></li>
+                                <li><a href="@submenuItem.Url">@submenuItem.Name</a></li>
                             }
                         }
                     </ul>
@@ -48,12 +52,14 @@
                     <a href="@landingpage.Url">@landingpage.Name</a>
                 }
             </li>
+
         }
         @foreach (var menuItem in Model.Root.RightMenuItems)
         {
             @RenderMenuLink(menuItem);
         }
     </ul>
+
 </nav>
 
 @helper RenderMenuLink(UmbracoTwenty.Models.MenuItemViewModel menuItem)

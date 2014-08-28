@@ -25,5 +25,8 @@ namespace UmbracoTwenty.Models
 
         [PropertyMapping(SourceProperty = "DribbleLink")]
         public string DribbleLink { get; set; }
+
+        [PropertyMapping(SourceProperty = "Scripts")]
+        public string Scripts { get; set; }
     }
 }
