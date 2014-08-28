@@ -8,6 +8,9 @@ namespace UmbracoTwenty.Models
 {
     public class HomeViewModel : BaseViewModel
     {
+        [PropertyMapping(SourceProperty = "LogoText")]
+        public string LogoText { get; set; }
+
         [PropertyMapping(SourceProperty="BannerTitle")]
         public string BannerTitle { get; set; }
 

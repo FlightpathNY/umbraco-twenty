@@ -3,7 +3,7 @@
 @{
     IPublishedContent root = Umbraco.TypedContent(UmbracoContext.Current.PageId).AncestorOrSelf(1);
 }
-<h1 id="logo"><a href="/">Twenty <span>by HTML5 UP</span></a></h1>
+<h1 id="logo"><a href="/">@Html.Raw(Model.Root.LogoText)</a></h1>
 <nav id="nav">
     <ul>
         @foreach (var menuItem in Model.Root.LeftMenuItems)
