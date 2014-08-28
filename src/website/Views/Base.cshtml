@@ -36,6 +36,6 @@
             @Html.CachedPartial("Header", @Model, 0)
         </header>
             @RenderSection("ContentArea", false)
-            @Html.CachedPartial("Footer", @Model.Footer, 3600)
+            @Html.CachedPartial("Footer", @Model.Root.Footer, 3600)
     </body>
 </html>
