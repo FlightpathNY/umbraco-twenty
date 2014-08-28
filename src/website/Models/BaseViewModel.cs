@@ -32,5 +32,7 @@ namespace UmbracoTwenty.Models
         public IList<MenuItemViewModel> RightMenuItems { get; set; }
 
         public FooterViewModel Footer { get; set; }
+
+        public HomeViewModel Root { get; set; }
     }
 }

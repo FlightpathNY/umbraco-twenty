@@ -25,7 +25,13 @@ namespace UmbracoTwenty.Controllers
             ArticleViewModel model = new ArticleViewModel();
             Mapper.Map(CurrentPage, model);
             MapBaseProperties(model);
-            //MapCallouts(model);
+
+            HomeViewModel home = new HomeViewModel();
+            IPublishedContent root = CurrentPage.AncestorOrSelf(1);
+            Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName, MapCallouts)
+                .AddCustomMapping(typeof(IList<MenuItemViewModel>).FullName, MapMenuItems)
+                .Map(root, home);
+            model.Root = home;
 
             return CurrentTemplate(model);
         }
