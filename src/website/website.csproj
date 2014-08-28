@@ -285,6 +285,7 @@
     <Content Include="Views\Partials\Header.cshtml" />
     <Content Include="Views\NoSidebar.cshtml" />
     <Content Include="Views\Partials\Callouts.cshtml" />
+    <Content Include="Views\LandingPage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -307,11 +308,13 @@
     <Compile Include="Controllers\ArticleController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LandingPageController.cs" />
     <Compile Include="Models\ArticleViewModel.cs" />
     <Compile Include="Models\BaseViewModel.cs" />
     <Compile Include="Models\CalloutViewModel.cs" />
     <Compile Include="Models\FooterViewModel.cs" />
     <Compile Include="Models\HomeViewModel.cs" />
+    <Compile Include="Models\LandingPageViewModel.cs" />
     <Compile Include="Models\MenuItemViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -19,5 +19,13 @@ namespace UmbracoTwenty.Models
 
         [PropertyMapping(SourceProperty = "BannerButtonText")]
         public string BannerButtonText { get; set; }
+
+        [PropertyMapping(SourceProperty = "LeadTitle")]
+        public string LeadTitle { get; set; }
+
+        [PropertyMapping(SourceProperty = "LeadText")]
+        public string LeadText { get; set; }
+
+
     }
 }
