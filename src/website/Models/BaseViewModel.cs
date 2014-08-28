@@ -27,6 +27,10 @@ namespace UmbracoTwenty.Models
 
         public IList<CalloutViewModel> Callouts { get; set; }
 
+        public IList<MenuItemViewModel> LeftMenuItems { get; set; }
+
+        public IList<MenuItemViewModel> RightMenuItems { get; set; }
+
         public FooterViewModel Footer { get; set; }
     }
 }

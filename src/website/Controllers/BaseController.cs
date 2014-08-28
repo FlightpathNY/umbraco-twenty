@@ -47,17 +47,38 @@
         //        MapCallouts);
         //}
 
-        protected void MapFooter(BaseViewModel model)
+        protected void MapBaseProperties(BaseViewModel model)
         {
             var homePage = CurrentPage.AncestorOrSelf(1);
+
             FooterViewModel footer = new FooterViewModel();
             Mapper.Map(homePage, footer);
+            //.AddCustomMapping(typeof(IList<MenuItemViewModel>).FullName, MapMenuItems)
             model.Footer = footer;
+
+
+        }
+
+        public static object MapMenuItems(IUmbracoMapper mapper, IPublishedContent contentToMapFrom, string propName, bool isRecursive)
+        {
+            Log.Debug("MapMenuItems() called.  propName: " + propName);
+            var result = new List<MenuItemViewModel>();
+
+            ArchetypeModel archetypeModel = contentToMapFrom.GetPropertyValue<ArchetypeModel>(propName, isRecursive, null);
+            if (archetypeModel != null)
+            {
+                var archetypeAsDictionary = archetypeModel
+                    .Select(item => item.Properties.ToDictionary(m => m.Alias, m => GetTypedValue(m), StringComparer.InvariantCultureIgnoreCase))
+                    .ToList();
+                mapper.MapCollection<MenuItemViewModel>(archetypeAsDictionary, result);
+            }
+
+            return result;
         }
 
         public static object MapCallouts(IUmbracoMapper mapper, IPublishedContent contentToMapFrom, string propName, bool isRecursive)
         {
-            Log.Debug("MapCallouts() called.");
+            Log.Debug("MapCallouts() called.  propName: " + propName);
             var result = new List<CalloutViewModel>();
 
             ArchetypeModel archetypeModel = contentToMapFrom.GetPropertyValue<ArchetypeModel>(propName, isRecursive, null);

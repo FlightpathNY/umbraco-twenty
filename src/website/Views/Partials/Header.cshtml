@@ -1,11 +1,21 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.BaseViewModel>
 @{
-    IPublishedContent root = Umbraco.TypedContentAtRoot().First();
+    IPublishedContent root = Umbraco.TypedContent(UmbracoContext.Current.PageId).AncestorOrSelf(1);
 }
 <h1 id="logo"><a href="/">Twenty <span>by HTML5 UP</span></a></h1>
 <nav id="nav">
     <ul>
-        <li class="current"><a href="/">Welcome</a></li>
+        @*<li class="current"><a href="/">Welcome</a></li>
+        <li><a href="/" class="button special">Button Special</a></li>
+        <li><a href="/" class="button">Button</a></li>*@
+
+        @foreach (var leftlink in Model.LeftMenuItems)
+        {
+            string linkClass = "";
+
+            <li><a href="/" class="@linkClass">@leftlink.Text</a></li>
+        }
+
         @foreach (var landingpage in root.Children)
         {
             bool isSubMenu = landingpage.Children.Count() > 0;
@@ -27,7 +37,7 @@
                                     <ul>
                                         @foreach (var tertiaryChild in childPage.Children)
                                         {
-                                        <li><a href="@tertiaryChild.Url">@tertiaryChild.Name</a></li>
+                                            <li><a href="@tertiaryChild.Url">@tertiaryChild.Name</a></li>
                                         }
                                     </ul>
                                 </li>
@@ -41,10 +51,19 @@
                 }
                 else
                 {
-                <a href="@landingpage.Url">@landingpage.Name</a>
+                    <a href="@landingpage.Url">@landingpage.Name</a>
                 }
             </li>
         }
-        <li><a href="#" class="button special">Sign Up</a></li>
+        @foreach (var leftlink in Model.RightMenuItems)
+        {
+            string linkClass = "";
+
+            <li><a href="/" class="@linkClass">@leftlink.Text</a></li>
+        }
+        @*<li><a href="#" class="button special">Sign Up</a></li>*@
     </ul>
+
+
+
 </nav>

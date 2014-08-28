@@ -14,23 +14,21 @@
     using Umbraco.Web.Mvc;
     using Archetype.Models;
     using Archetype.Extensions;
-    //using log4net;
-    //using System.Reflection;
 
     public class HomeController : BaseController
     {
         public HomeController(IUmbracoMapper mapper)
             : base(mapper)
         {
-            //Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         }
 
         public ActionResult Index()
         {
             HomeViewModel model = new HomeViewModel();
             Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName,
-                MapCallouts).Map(CurrentPage, model);
-            MapFooter(model);
+                MapCallouts).AddCustomMapping(typeof(IList<MenuItemViewModel>).FullName, MapMenuItems).Map(CurrentPage, model);
+            MapBaseProperties(model);
 
             return CurrentTemplate(model);
         }
