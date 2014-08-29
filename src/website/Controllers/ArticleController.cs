@@ -23,7 +23,8 @@ namespace UmbracoTwenty.Controllers
         public ActionResult Index()
         {
             ArticleViewModel model = new ArticleViewModel();
-            Mapper.Map(CurrentPage, model);
+            Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName, MapCallouts)
+                .Map(CurrentPage, model);
             MapBaseProperties(model);
 
             HomeViewModel home = new HomeViewModel();

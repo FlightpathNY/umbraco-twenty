@@ -96,7 +96,7 @@
         private static object GetTypedValue(ArchetypePropertyModel archetypeProperty)
         {
             Log.Debug("GetTypedValue(ArchetypePropertyModel archetypeProperty)");
-            Log.Debug(archetypeProperty.PropertyEditorAlias + " " + archetypeProperty.Alias +" "+ archetypeProperty.Value);
+            Log.Debug(archetypeProperty.PropertyEditorAlias + " " + archetypeProperty.Alias +" ["+ archetypeProperty.Value + "]");
 
             switch (archetypeProperty.PropertyEditorAlias)
             {

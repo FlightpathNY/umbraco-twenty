@@ -1,16 +1,56 @@
-﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.BaseViewModel>
-<div class="row"><div class="4u">Test</div><div class="4u">Test</div><div class="4u">@Model.Callouts.Count()</div></div>
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IList<UmbracoTwenty.Models.CalloutViewModel>>
 @{
+    int numberOfColumns = 4;
+    string columnClass = "4u";
+    try
+    {
+        numberOfColumns = (int)ViewData["numberOfColumns"];
+    }
+    catch { }
+    switch (numberOfColumns)
+    {
+        case 1:
+            columnClass = "12u";
+            break;
+
+        case 2:
+            columnClass = "6u";
+            break;
+
+        case 3:
+            columnClass = "4u";
+            break;
+
+        case 4:
+            columnClass = "3u";
+            break;
+
+        case 6:
+            columnClass = "2u";
+            break;
+
+        case 12:
+            columnClass = "1u";
+            break;
+
+        default:
+            numberOfColumns = 4;
+            columnClass = "3u";
+            break;
+            
+            
+    }
+    
     int columnCounter = 0;
-    foreach (var callout in Model.Callouts)
+    foreach (var callout in Model)
     {
         if (columnCounter == 0)
         {
             @Html.Raw("<div class=\"row\">")
         }
-        @RenderCallout(Model.CalloutsDisplayImages, Model.CalloutsDisplayButtons, callout);
+        @RenderCallout(columnClass, true, true, callout);
         columnCounter++;
-        if (columnCounter == 4) 
+        if (columnCounter == numberOfColumns) 
         {
             @Html.Raw("</div>")
             columnCounter = 0;
@@ -18,18 +58,20 @@
     }
 }
 
-@helper RenderCallout(bool displayImage, bool displayButton, UmbracoTwenty.Models.CalloutViewModel callout)
+@helper RenderCallout(string columnClass, bool displayImage, bool displayButton, UmbracoTwenty.Models.CalloutViewModel callout)
 {
-    <div class="4u">
+    <div class="@columnClass">
 
         <section>
+            <a href="#" class="image featured"><img src="@callout.Image.Url" alt="" /></a>
+
             <header>
                 <h3>@callout.Title</h3>
             </header>
-            <p>uRL: @Html.Raw(callout.Image.Url)</p>
+            <p>@Html.Raw(callout.Body)</p>
             <footer>
                 <ul class="buttons">
-                    <li><a href="#" class="button small">[@callout.LinkText]</a></li>
+                    <li><a href="#" class="button small">@callout.LinkText</a></li>
                 </ul>
             </footer>
         </section>

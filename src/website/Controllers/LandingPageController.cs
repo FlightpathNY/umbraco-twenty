@@ -26,12 +26,13 @@
         public ActionResult Index()
         {
             LandingPageViewModel model = new LandingPageViewModel();
-            Mapper.Map(CurrentPage, model);
+            Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName, MapCallouts)
+                .Map(CurrentPage, model);
             MapBaseProperties(model);
 
             HomeViewModel home = new HomeViewModel();
             IPublishedContent root = CurrentPage.AncestorOrSelf(1);
-            Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName, MapCallouts)
+            Mapper//.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName, MapCallouts)
                 .AddCustomMapping(typeof(IList<MenuItemViewModel>).FullName, MapMenuItems)
                 .Map(root, home);
             model.Root = home;
