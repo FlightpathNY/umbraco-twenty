@@ -37,8 +37,6 @@
             numberOfColumns = 4;
             columnClass = "3u";
             break;
-            
-            
     }
     
     int columnCounter = 0;
@@ -63,19 +61,29 @@
     <div class="@columnClass">
 
         <section>
-            <a href="#" class="image featured"><img src="@callout.Image.Url" alt="" /></a>
-
-            <header>
-                <h3>@callout.Title</h3>
-            </header>
-            <p>@Html.Raw(callout.Body)</p>
-            <footer>
-                <ul class="buttons">
-                    <li><a href="#" class="button small">@callout.LinkText</a></li>
-                </ul>
-            </footer>
+            @if (displayImage && !String.IsNullOrEmpty(callout.Image.Url))
+            {
+                <a href="@callout.Link.Url" class="image featured"><img src="@callout.Image.Url" alt="" /></a>
+            }
+            @if (!String.IsNullOrEmpty(callout.Title))
+            {
+                <header>
+                    <h3>@callout.Title</h3>
+                </header>
+            }
+            @if (!String.IsNullOrEmpty(callout.Body))
+            {
+                <p>@Html.Raw(callout.Body)</p>
+            }
+            @if (displayButton && !String.IsNullOrEmpty(callout.LinkText) && !String.IsNullOrEmpty(callout.Link.Url))
+            {
+                <footer>
+                    <ul class="buttons">
+                        <li><a href="@callout.Link.Url" class="button small">@callout.LinkText</a></li>
+                    </ul>
+                </footer>
+            }
         </section>
 
     </div>
-
 }

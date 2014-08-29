@@ -4,17 +4,16 @@
     {
         public MenuItemViewModel()
         {
-            Link = new MenuLink();
+            Link = new Link();
         }
         public string Type { get; set; }
         public string Text { get; set; }
-        public MenuLink Link { get; set; }
+        public Link Link { get; set; }
     }
 
-    public class MenuLink
+    public class Link
     {
         public string Name { get; set; }
-
         public string Url { get; set; }
     }
 }

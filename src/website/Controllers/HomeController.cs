@@ -26,8 +26,9 @@
         public ActionResult Index()
         {
             HomeViewModel model = new HomeViewModel();
-            Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName,
-                MapCallouts).AddCustomMapping(typeof(IList<MenuItemViewModel>).FullName, MapMenuItems).Map(CurrentPage, model);
+            Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName, MapCallouts)
+                .AddCustomMapping(typeof(IList<MenuItemViewModel>).FullName, MapMenuItems)
+                .Map(CurrentPage, model);
             MapBaseProperties(model);
             model.Root = model;
             return CurrentTemplate(model);

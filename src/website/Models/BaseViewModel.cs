@@ -6,7 +6,7 @@ using Zone.UmbracoMapper;
 
 namespace UmbracoTwenty.Models
 {
-    public class BaseViewModel
+    public class BaseViewModel : BaseNodeViewModel 
     {
         public BaseViewModel()
         {

@@ -107,6 +107,7 @@
                     {
                         Log.Debug("IPublishedContent is null");
                         Log.Debug("value: " + archetypeProperty.Value);
+                        return "";
                     }
                     return v;
                 //case "Umbraco.MultiNodeTreePicker":
