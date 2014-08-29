@@ -1,10 +1,16 @@
 ﻿using System.Web;
+using System.Collections.Generic;
 using Zone.UmbracoMapper;
 
 namespace UmbracoTwenty.Models
 {
     public class ArticleViewModel : BaseViewModel
     {
+        public ArticleViewModel()
+        {
+            ArticleCallouts = new List<CalloutViewModel>();
+        }
+
         [PropertyMapping(SourceProperty = "Title")]
         public string Title { get; set; }
 
@@ -20,5 +26,6 @@ namespace UmbracoTwenty.Models
         [PropertyMapping(SourceProperty = "Body")]
         public string Body { get; set; }
 
+        public IList<CalloutViewModel> ArticleCallouts { get; set; }
     }
 }

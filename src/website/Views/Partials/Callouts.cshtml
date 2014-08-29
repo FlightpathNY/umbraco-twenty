@@ -1,6 +1,6 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<IList<UmbracoTwenty.Models.CalloutViewModel>>
 @{
-    int numberOfColumns = 4;
+    int numberOfColumns = 0;
     string columnClass = "4u";
     try
     {
@@ -9,6 +9,10 @@
     catch { }
     switch (numberOfColumns)
     {
+        case 0: // no columns rendered
+            columnClass = "";
+            break;
+
         case 1:
             columnClass = "12u";
             break;
@@ -42,13 +46,13 @@
     int columnCounter = 0;
     foreach (var callout in Model)
     {
-        if (columnCounter == 0)
+        if (columnCounter == 0 && !String.IsNullOrEmpty(columnClass))
         {
             @Html.Raw("<div class=\"row\">")
         }
         @RenderCallout(columnClass, true, true, callout);
         columnCounter++;
-        if (columnCounter == numberOfColumns) 
+        if (columnCounter == numberOfColumns && !String.IsNullOrEmpty(columnClass)) 
         {
             @Html.Raw("</div>")
             columnCounter = 0;
@@ -58,32 +62,42 @@
 
 @helper RenderCallout(string columnClass, bool displayImage, bool displayButton, UmbracoTwenty.Models.CalloutViewModel callout)
 {
-    <div class="@columnClass">
+    if (String.IsNullOrEmpty(columnClass))
+    {
+        @RenderCalloutSection(displayImage, displayButton, callout)
+    }
+    else
+    {
+        <div class="@columnClass">
+            @RenderCalloutSection(displayImage, displayButton, callout)
+        </div>
+    }
+}
 
-        <section>
-            @if (displayImage && !String.IsNullOrEmpty(callout.Image.Url))
-            {
-                <a href="@callout.Link.Url" class="image featured"><img src="@callout.Image.Url" alt="" /></a>
-            }
-            @if (!String.IsNullOrEmpty(callout.Title))
-            {
-                <header>
-                    <h3>@callout.Title</h3>
-                </header>
-            }
-            @if (!String.IsNullOrEmpty(callout.Body))
-            {
-                <p>@Html.Raw(callout.Body)</p>
-            }
-            @if (displayButton && !String.IsNullOrEmpty(callout.LinkText) && !String.IsNullOrEmpty(callout.Link.Url))
-            {
-                <footer>
-                    <ul class="buttons">
-                        <li><a href="@callout.Link.Url" class="button small">@callout.LinkText</a></li>
-                    </ul>
-                </footer>
-            }
-        </section>
-
-    </div>
+@helper RenderCalloutSection(bool displayImage, bool displayButton, UmbracoTwenty.Models.CalloutViewModel callout)
+{
+    <section>
+        @if (displayImage && !String.IsNullOrEmpty(callout.Image.Url))
+        {
+            <a href="@callout.Link.Url" class="image featured"><img src="@callout.Image.Url" alt="" /></a>
+        }
+        @if (!String.IsNullOrEmpty(callout.Title))
+        {
+            <header>
+                <h3>@callout.Title</h3>
+            </header>
+        }
+        @if (!String.IsNullOrEmpty(callout.Body))
+        {
+            <p>@Html.Raw(callout.Body)</p>
+        }
+        @if (displayButton && !String.IsNullOrEmpty(callout.LinkText) && !String.IsNullOrEmpty(callout.Link.Url))
+        {
+            <footer>
+                <ul class="buttons">
+                    <li><a href="@callout.Link.Url" class="button small">@callout.LinkText</a></li>
+                </ul>
+            </footer>
+        }
+    </section>
 }
