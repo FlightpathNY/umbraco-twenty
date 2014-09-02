@@ -1,0 +1,8 @@
+﻿
+@model UmbracoTwenty.Models.ContactFormModel
+
+@using (Html.BeginUmbracoForm<UmbracoTwenty.Controllers.ContactFormController>("SaveContactForm"))
+{
+    @Html.EditorFor(x => Model)
+    <input type="submit" />
+}

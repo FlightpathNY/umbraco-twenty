@@ -1,0 +1,31 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoTwenty.Models.ArticleViewModel>
+@{
+    Layout = "Base.cshtml";
+}
+@section BodyClass {no-sidebar }
+@section ContentArea
+{
+    <!-- Main -->
+    <article id="main">
+
+        <header class="special container">
+            <span class="icon fa-mobile"></span>
+            <h2>@Html.Raw(Model.Title)</h2>
+            <p>@Html.Raw(Model.Subtitle)</p>
+        </header>
+
+        <!-- One -->
+        <section class="wrapper style4 container">
+
+            <!-- Content -->
+            <div class="content">
+                <section>
+                    @Html.Action("ShowContactForm", "ContactForm")
+                </section>
+            </div>
+
+        </section>
+
+    </article>
+
+}
