@@ -27,6 +27,12 @@ namespace UmbracoTwenty.Controllers
                 .Map(CurrentPage, model);
             MapBaseProperties(model);
 
+            // workaround for image not getting mapped
+            IPublishedContent image = CurrentPage.GetPropertyValue<IPublishedContent>("featuredImage");
+            model.FeaturedImage = new MediaFile();
+            model.FeaturedImage.Url = image.Url;
+            model.FeaturedImage.Name = image.Name;
+
             HomeViewModel home = new HomeViewModel();
             IPublishedContent root = CurrentPage.AncestorOrSelf(1);
             Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName, MapCallouts)

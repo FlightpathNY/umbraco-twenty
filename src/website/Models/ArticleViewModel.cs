@@ -8,6 +8,7 @@ namespace UmbracoTwenty.Models
     {
         public ArticleViewModel()
         {
+            //FeaturedImage = new Zone.UmbracoMapper.MediaFile();
             ArticleCallouts = new List<CalloutViewModel>();
         }
 
@@ -17,8 +18,8 @@ namespace UmbracoTwenty.Models
         [PropertyMapping(SourceProperty = "Subtitle")]
         public string Subtitle { get; set; }
 
-        [PropertyMapping(SourceProperty = "FeaturedImage")]
-        public string FeaturedImage { get; set; }
+        //[PropertyMapping(SourceProperty = "FeaturedImage")]
+        public Zone.UmbracoMapper.MediaFile FeaturedImage { get; set; }
 
         [PropertyMapping(SourceProperty = "Header")]
         public string Header { get; set; }
