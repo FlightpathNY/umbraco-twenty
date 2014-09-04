@@ -33,9 +33,9 @@
     <body class="@RenderSection("BodyClass", false)">
         <!-- Header -->
         <header id="header" class="@RenderSection("HeaderClass", false)">
-            @Html.CachedPartial("Header", @Model, 0)
+            @Html.Partial("Header", @Model)
         </header>
             @RenderSection("ContentArea", false)
-            @Html.CachedPartial("Footer", @Model.Footer, 3600)
+            @Html.Partial("Footer", @Model.Footer)
     </body>
 </html>

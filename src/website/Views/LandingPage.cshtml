@@ -16,49 +16,18 @@
         </header>
 
         <section class="wrapper style3 container special">
-
             @{
                 ViewDataDictionary calloutViewData = new ViewDataDictionary();
                 calloutViewData["numberOfColumns"] = 2;
             }
             @Html.Partial("Callouts", Model.MainCallouts, calloutViewData)
+        </section>
 
-            @*<div class="row">
-                <div class="6u">
-
-                    <section>
-                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-                        <header>
-                            <h3>A Really Fast Train</h3>
-                        </header>
-                        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                        <footer>
-                            <ul class="buttons">
-                                <li><a href="#" class="button small">[Button]</a></li>
-                            </ul>
-                        </footer>
-
-                    </section>
-
-                </div>
-                <div class="6u">
-
-                    <section>
-                        <a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-                        <header>
-                            <h3>An Airport Terminal</h3>
-                        </header>
-                        <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                        <footer>
-                            <ul class="buttons">
-                                <li><a href="#" class="button small">[Button]</a></li>
-                            </ul>
-                        </footer>
-                    </section>
-
-                </div>
-            </div>*@
-
+        <section class="wrapper style1 container special">
+            @{
+                calloutViewData["numberOfColumns"] = 3;
+            }
+            @Html.Partial("Callouts", Model.Callouts, calloutViewData)
         </section>
     </article>
 }

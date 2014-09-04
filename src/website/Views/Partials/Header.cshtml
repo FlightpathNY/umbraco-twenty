@@ -14,7 +14,7 @@
         @foreach (var landingpage in root.Children.Where(x => x.GetPropertyValue<bool>("displayInMenu") == true))
         {
             IEnumerable<IPublishedContent> submenuItems = landingpage.Children.Where(x => x.GetPropertyValue<bool>("displayInMenu") == true);
-            
+
             bool isSubMenu = submenuItems.Count() > 0;
 
             <li class="@Html.Raw(isSubMenu ? "submenu" : "")">
@@ -60,6 +60,8 @@
         }
     </ul>
 
+
+
 </nav>
 
 @helper RenderMenuLink(UmbracoTwenty.Models.MenuItemViewModel menuItem)
@@ -67,11 +69,11 @@
     if (!string.IsNullOrEmpty(menuItem.Text) && !string.IsNullOrEmpty(menuItem.Link.Url))
     {
         string linkClass = "";
-        if (menuItem.Type == "457")
+        if (menuItem.Type == "1141")
         {
             linkClass = "button";
         }
-        if (menuItem.Type == "456")
+        if (menuItem.Type == "1142")
         {
             linkClass = "button special";
         }
