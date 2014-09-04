@@ -41,19 +41,12 @@
 
         #endregion
 
-        //protected void MapCallouts(BaseViewModel model)
-        //{
-        //    Mapper.AddCustomMapping(typeof(IList<CalloutViewModel>).FullName,
-        //        MapCallouts);
-        //}
-
         protected void MapBaseProperties(BaseViewModel model)
         {
             var homePage = CurrentPage.AncestorOrSelf(1);
 
             FooterViewModel footer = new FooterViewModel();
             Mapper.Map(homePage, footer);
-            //.AddCustomMapping(typeof(IList<MenuItemViewModel>).FullName, MapMenuItems)
             model.Footer = footer;
 
 
@@ -61,7 +54,6 @@
 
         public static object MapMenuItems(IUmbracoMapper mapper, IPublishedContent contentToMapFrom, string propName, bool isRecursive)
         {
-            Log.Debug("MapMenuItems() called.  propName: " + propName);
             var result = new List<MenuItemViewModel>();
 
             ArchetypeModel archetypeModel = contentToMapFrom.GetPropertyValue<ArchetypeModel>(propName, isRecursive, null);
@@ -78,7 +70,6 @@
 
         public static object MapCallouts(IUmbracoMapper mapper, IPublishedContent contentToMapFrom, string propName, bool isRecursive)
         {
-            Log.Debug("MapCallouts() called.  propName: " + propName);
             var result = new List<CalloutViewModel>();
 
             ArchetypeModel archetypeModel = contentToMapFrom.GetPropertyValue<ArchetypeModel>(propName, isRecursive, null);
@@ -95,9 +86,6 @@
 
         private static object GetTypedValue(ArchetypePropertyModel archetypeProperty)
         {
-            Log.Debug("GetTypedValue(ArchetypePropertyModel archetypeProperty)");
-            Log.Debug(archetypeProperty.PropertyEditorAlias + " " + archetypeProperty.Alias +" ["+ archetypeProperty.Value + "]");
-
             switch (archetypeProperty.PropertyEditorAlias)
             {
                 case "Umbraco.ContentPickerAlias":
@@ -105,8 +93,6 @@
                     IPublishedContent v = archetypeProperty.GetValue<IPublishedContent>();
                     if (v == null)
                     {
-                        Log.Debug("IPublishedContent is null");
-                        Log.Debug("value: " + archetypeProperty.Value);
                         return "";
                     }
                     return v;

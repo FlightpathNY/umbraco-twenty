@@ -33,7 +33,7 @@
                     <section>
                         <a href="#" class="image featured"><img src="@Model.FeaturedImage.Url" alt="@Model.FeaturedImage.Name" /></a>
                         <header>
-                            <h3>Dolore Amet Consequat</h3>
+                            <h3>@Html.Raw(Model.Header)</h3>
                         </header>
                         @Html.Raw(Model.Body)
                     </section>
@@ -43,9 +43,12 @@
         </div>
     </section>
 
-    @Html.CachedPartial("Callouts", Model.Callouts, 3600)
-
+    <section class="wrapper style1 container special">
+        @{
+            ViewDataDictionary calloutViewData = new ViewDataDictionary();
+            calloutViewData["numberOfColumns"] = 3;
+        }
+        @Html.Partial("Callouts", Model.Callouts, calloutViewData)
+    </section>
 </article>
-
-
 }

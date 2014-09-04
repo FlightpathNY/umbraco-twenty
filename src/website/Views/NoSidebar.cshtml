@@ -5,7 +5,7 @@
 @section BodyClass {no-sidebar }
 @section ContentArea 
 {
-    		<!-- Main -->
+<!-- Main -->
 <article id="main">
 
     <header class="special container">
@@ -20,67 +20,22 @@
         <!-- Content -->
         <div class="content">
             <section>
-                <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+                <a href="#" class="image featured"><img src="@Model.FeaturedImage.Url" alt="@Model.FeaturedImage.Name" /></a>
                 <header>
-                    <h3>Dolore Amet Consequat</h3>
+                    <h3>@Html.Raw(Model.Header)</h3>
                 </header>
                 @Html.Raw(Model.Body)
             </section>
         </div>
 
     </section>
-
-    <!-- Two -->
     <section class="wrapper style1 container special">
-        <div class="row">
-            <div class="4u">
-
-                <section>
-                    <header>
-                        <h3>This is Something</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-
-            </div>
-            <div class="4u">
-
-                <section>
-                    <header>
-                        <h3>Also Something</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-
-            </div>
-            <div class="4u">
-
-                <section>
-                    <header>
-                        <h3>Probably Something</h3>
-                    </header>
-                    <p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-                    <footer>
-                        <ul class="buttons">
-                            <li><a href="#" class="button small">Learn More</a></li>
-                        </ul>
-                    </footer>
-                </section>
-
-            </div>
-        </div>
+        @{
+            ViewDataDictionary calloutViewData = new ViewDataDictionary();
+            calloutViewData["numberOfColumns"] = 3;
+        }
+        @Html.Partial("Callouts", Model.Callouts, calloutViewData)
     </section>
-
 </article>
 
 }
